@@ -1,0 +1,4736 @@
+/**
+ * [Table of contents]
+ *
+ * [&. Content / #key]
+ * [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ * Summary:
+ *
+ *  0. VARIABLE LESS
+ *    - 0.1. Color
+ *  1. RESPONSIVE SCREEN
+ *    - 1.1. Media screen max width 1199px
+ *    - 1.2. Media screen max width 1024px
+ *    - 1.3. Media screen max width 991px
+ *    - 1.4. Media screen max width 768px
+ *    - 1.5. Media screen max width 767px
+ *    - 1.6. Media screen max width 600px
+ *    - 1.7. Media screen max width 480px
+ *    - 1.8. Media screen max width 414px
+ *    - 1.9. Media screen max width 380px
+ *    - 1.10. Media screen max width 300px
+ */
+/*=====================================
+=            VARIABLE LESS            =
+=====================================*/
+/*----------  0.1. Color  ----------*/
+/*=====  End of VARIABLE LESS  ======*/
+/**
+ * [Table of contents]
+ *
+ * [&. Content / #key]
+ * [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ * Summary:
+ *
+ *  0. VARIABLE LESS
+ *    - 0.1. Color
+ *    - 0.2. Font
+ *  1. MIXINS
+
+
+/*=============================
+ =====   VARIABLE LESS    =====
+ =============================*/
+/*----------  0.1. Color  ----------*/
+/*----------  0.2. Font  ----------*/
+/*=============================
+ ====  END VARIABLE LESS   ====
+ =============================*/
+/*=============================
+ =====       MIXINS       =====
+ =============================*/
+/*=============================
+ ====      END MIXINS      ====
+ =============================*/
+/*=============================
+ =====     KEY FRAMES      =====
+ =============================*/
+@keyframes color-text {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 475px 0;
+  }
+}
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 10px 10px rgba(255,237,0, 0.8), 0 0 0 3px rgba(255,237,0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 10px 10px rgba(255,237,0, 0.8), 0 0 0 3px rgba(255,237,0, 0.5);
+    -webkit-transform: scale(1.3);
+    opacity: 0;
+  }
+}
+@-moz-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 10px 10px rgba(255,237,0, 0.8), 0 0 0 3px rgba(255,237,0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 10px 10px rgba(255,237,0, 0.8), 0 0 0 3px rgba(255,237,0, 0.5);
+    -moz-transform: scale(1.3);
+    opacity: 0;
+  }
+}
+@keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 10px 10px rgba(255,237,0, 0.8), 0 0 0 3px rgba(255,237,0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 10px 10px rgba(255,237,0, 0.8), 0 0 0 3px rgba(255,237,0, 0.5);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+@-webkit-keyframes sonarEffect-2 {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 5px 7px rgba(255,237,0, 0.7), 0 0 0 3px rgba(255,237,0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 5px 7px rgba(255,237,0, 0.7), 0 0 0 3px rgba(255,237,0, 0.5);
+    -webkit-transform: scale(1.3);
+    opacity: 0;
+  }
+}
+@-moz-keyframes sonarEffect-2 {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 5px 7px rgba(255,237,0, 0.7), 0 0 0 3px rgba(255,237,0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 5px 7px rgba(255,237,0, 0.7), 0 0 0 3px rgba(255,237,0, 0.5);
+    -moz-transform: scale(1.3);
+    opacity: 0;
+  }
+}
+@keyframes sonarEffect-2 {
+  0% {
+    opacity: 0.3;
+  }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 5px 7px rgba(255,237,0, 0.7), 0 0 0 3px rgba(255,237,0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255,237,0, 0.1), 0 0 5px 7px rgba(255,237,0, 0.7), 0 0 0 3px rgba(255,237,0, 0.5);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+@keyframes cloud_left_to_right {
+  0% {
+    left: -200%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-webkit-keyframes cloud_left_to_right {
+  0% {
+    left: -200%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@-moz-keyframes cloud_left_to_right {
+  0% {
+    left: -200%;
+  }
+  100% {
+    left: 0;
+  }
+}
+@keyframes cloud_right_to_left {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@-webkit-keyframes cloud_right_to_left {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+@-moz-keyframes cloud_right_to_left {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -200%;
+  }
+}
+/*=============================
+ =====   END KEY FRAMES   =====
+ =============================*/
+/*=========================================
+=            RESPONSIVE SCREEN            =
+=========================================*/
+/*----------  1.1. Media screen max width 1199px  ----------*/
+@media screen and (max-width: 1199px) {
+  .tab-search-transparent .find-widget {
+    padding: 50px;
+  }
+  .tab-search-long * button[type="submit"],
+  .tab-search-long .find-car-widget button[type="submit"],
+  .tab-search-long .find-cruises-widget button[type="submit"],
+  .tab-search-long .find-tours-widget button[type="submit"],
+  .tab-search-long .find-transfer-widget button[type="submit"] {
+    position: relative;
+    width: 170px;
+    margin-top: 30px;
+  }
+  .tab-search-long .place {
+    width: calc((100% - 24px) * 34 / 100);
+    width: -webkit-calc((100% - 24px) * 34 / 100);
+    width: -moz-calc((100% - 24px) * 34 / 100);
+  }
+  .tab-search-long .input-daterange {
+    width: calc((100% - 24px) * 42 / 100);
+    width: -webkit-calc((100% - 24px) * 42 / 100);
+    width: -moz-calc((100% - 24px) * 42 / 100);
+  }
+  .tab-search-long .count {
+    width: calc((100% - 24px) * 12 / 100);
+    width: -webkit-calc((100% - 24px) * 12 / 100);
+    width: -moz-calc((100% - 24px) * 12 / 100);
+  }
+  .tab-search-long .find-cruises-widget .count,
+  .tab-search-long .find-tours-widget .count,
+  .tab-search-long .find-transfer-widget .count {
+    width: calc((100% - 24px) * 12 / 100);
+    width: -webkit-calc((100% - 24px) * 12 / 100);
+    width: -moz-calc((100% - 24px) * 12 / 100);
+  }
+  .tab-search-long .find-cruises-widget .place,
+  .tab-search-long .find-cruises-widget .time-count,
+  .tab-search-long .find-tours-widget .date,
+  .tab-search-long .find-tours-widget .place,
+  .tab-search-long .find-transfer-widget .date,
+  .tab-search-long .find-transfer-widget .place {
+    width: calc((100% - 24px) * 38 / 100);
+    width: -webkit-calc((100% - 24px) * 38 / 100);
+    width: -moz-calc((100% - 24px) * 38 / 100);
+  }
+  .tab-search-long .find-car-widget .input-daterange,
+  .tab-search-long .find-car-widget .place {
+    width: calc((100% - 16px) * 40 / 100);
+    width: -webkit-calc((100% - 16px) * 40 / 100);
+    width: -moz-calc((100% - 16px) * 40 / 100);
+  }
+  .tab-search-long .find-car-widget .car-count {
+    width: calc((100% - 16px) * 20 / 100);
+    width: -webkit-calc((100% - 16px) * 20 / 100);
+    width: -moz-calc((100% - 16px) * 20 / 100);
+  }
+  .tab-search-condensed .find-widget {
+    padding: 40px 50px;
+  }
+  .sidebar-widget .find-widget {
+    padding: 40px 20px;
+  }
+  .sidebar-widget .ffw-radio-selection span.ffw-radio-btn-wrapper {
+    display: block;
+    margin-top: 10px;
+  }
+  .sidebar-widget .ffw-radio-selection span.ffw-radio-btn-wrapper:first-child {
+    margin-top: 0;
+  }
+  .social-widget ul {
+    margin-left: 0;
+  }
+  .social-widget ul li {
+    width: calc(100% / 5);
+    width: -webkit-calc(100% / 5);
+    width: -moz-calc(100% / 5);
+  }
+  .timeline-custom-col.image-col:before {
+    left: -40px;
+  }
+}
+/*----------  1.2. Media screen max width 1024px  ----------*/
+@media screen and (max-width: 1024px) {
+
+
+.searchResults li .col-md-3 {
+  padding: 8px 0 10px 40px;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px dashed;
+  margin-bottom: 10px;
+}
+.searchResults .col-md-2 {
+  padding: 0;
+  width: 50%;
+  padding-left: 0;
+  text-align: left;
+  float: left;
+  margin-right: 0;
+}
+.searchResults li a .col-md-2.view {
+  float: right;
+}
+.searchResults .btn {
+  background-color: #01427a;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px;
+  width: 100px;
+  top: 15px;
+  float: right;
+}
+
+
+
+
+  /*----------  3.2. Flight Results  ----------*/
+  .result-wrapper .slick-prev {
+    left: -30px;
+  }
+  .result-wrapper .slick-next {
+    right: -30px;
+  }
+  .navigation .nav-links .main-menu {
+    margin: 0 18px;
+  }
+  .footer-main-wrapper .col-md-2 .booking-widget {
+    text-align: left !important;
+  }
+  .footer-main-wrapper .col-md-2 .booking-widget ul {
+    margin-left: 0;
+  }
+/*  .tours-layout .content-wrapper > .content {
+    padding: 30px 5px;
+  }*/
+	  .tours-content  .slick-track .btn {
+    font-size: 13px !important;
+}
+  .video-thumbnail {
+    height: 320px;
+  }
+  .video-thumbnail .video-button-play {
+    line-height: 65px;
+    font-size: 24px;
+    width: 65px;
+    height: 65px;
+    margin-top: -32px;
+    margin-left: -32px;
+  }
+  .videos.layout-1 .video-thumbnail {
+    bottom: -80px;
+  }
+  .hotels-wrapper .hotels-list .col-sm-6 {
+    width: 100%;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .hotels-wrapper .hotels-list .col-sm-6 .hotels-layout {
+    margin-bottom: 30px;
+  }
+  .hotels-wrapper .hotels-list .col-sm-6:nth-last-child(-n + 2) .hotels-layout {
+    margin-bottom: 30px;
+  }
+  .hotels-wrapper .hotels-list .col-sm-6:last-child .hotels-layout {
+    margin-bottom: 0;
+  }
+  .travelers .traveler-list .slick-prev,
+  .travelers .traveler-list .slick-next {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .travelers .traveler-list .slick-prev:before,
+  .travelers .traveler-list .slick-next:before {
+    line-height: 36px;
+  }
+  .travelers .traveler-list .slick-next {
+    right: -35px;
+  }
+  .travelers .traveler-list .slick-prev {
+    left: -35px;
+  }
+  .new-layout .image-wrapper {
+    width: 44%;
+  }
+  .new-layout .image-wrapper .link {
+    position: absolute;
+  }
+  .new-layout .image-wrapper .link img {
+    max-width: initial;
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -30%;
+  }
+  .new-layout .image-wrapper .description {
+    left: 30px;
+    right: 30px;
+  }
+  .a-fact-image-wrapper {
+    min-width: initial;
+  }
+  .a-fact-image-wrapper .a-fact-image .icons.icons-4 {
+    right: 25%;
+    bottom: 27%;
+  }
+  .banner-sale-1 .title-box .title-1 {
+    font-size: 70px;
+  }
+  .banner-sale-1 .title-box .title-2 {
+    font-size: 60px;
+  }
+  .banner-sale-1 .title-box .title-3 {
+    font-size: 40px;
+    padding-top: 4px;
+  }
+  .banner-sale-2 .title-box .title-1 {
+    font-size: 70px;
+  }
+  .text-salebox .text-left {
+    vertical-align: middle;
+  }
+  .text-salebox .text-left .sale-box .number {
+    font-size: 70px;
+  }
+  .text-salebox .text-left .sale-box .sup-1 {
+    font-size: 30px;
+  }
+  .text-salebox .text-left .sale-box .sup-2 {
+    font-size: 26px;
+    bottom: 7px;
+  }
+  .text-salebox .text-left .sale-box .text-sale {
+    font-size: 60px;
+  }
+  .a-fact-image-wrapper {
+    min-height: 370px;
+  }
+  .about-us.layout-2 .about-us-image {
+    max-width: 350px;
+    right: -10px;
+  }
+  .videos.layout-2 .video-thumbnail {
+    height: 400px;
+  }
+  .page-title-wrapper .captions {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .page-title-wrapper .price .number {
+    font-size: 50px;
+  }
+  .page-title-wrapper .price .unit {
+    font-size: 24px;
+  }
+  .subscribe-email-wrapper .subscribe-email-right {
+    float: left;
+  }
+  .special-offer {
+    margin-bottom: 0;
+  }
+  .car-rent-layout .content-wrapper .price {
+    font-size: 24px;
+    position: relative;
+  }
+  .car-rent-layout .content-wrapper .price .for-price {
+    display: block;
+    top: 0;
+    line-height: 1;
+    margin: 0;
+  }
+  .car-rent-layout .content-wrapper .price sup {
+    position: absolute;
+    right: -4px;
+    left: auto;
+    top: 2px;
+    font-size: 14px;
+  }
+  .car-rent-layout .image-wrapper {
+    width: 330px;
+  }
+  .car-rent-layout .image-wrapper .link img {
+    left: -20px;
+    height: 100%;
+  }
+  .cruises-layout .content-wrapper {
+    padding: 30px;
+  }
+  .cruises-layout .content-wrapper .price {
+    position: relative;
+    font-size: 24px;
+  }
+  .cruises-layout .content-wrapper .price sup {
+    position: absolute;
+    right: -14px;
+    top: 4px;
+  }
+  /*----------  about-us  ----------*/
+  .content-tours .wrapper-icon-thin:before {
+    width: 180px;
+    right: -90px;
+  }
+  .wrapper-expert .caption-expert {
+    left: 0;
+  }
+  /*---------- car-rent-result  ----------*/
+  .result-meta .result-count-wrapper {
+    height: 40px;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    padding: 20px 0;
+  }
+  .result-meta .result-filter-wrapper {
+    display: table;
+    width: 100%;
+  }
+  .result-meta .result-filter-wrapper .result-filter-label {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+  }
+  .result-meta .result-filter-wrapper .selection-bar {
+    display: table-cell;
+    float: none;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    width: 200px;
+  }
+  .overview-block {
+    padding-top: 10px;
+  }
+  .timeline-hotel-view .timeline-point {
+    top: 164px;
+  }
+  .timeline-hotel-view .timeline-custom-col.image-col:before {
+    top: 174px;
+  }
+  .map-block .map-info {
+    padding-top: 8%;
+  }
+  .gallery-block .gallery-image {
+    position: relative;
+  }
+  .gallery-block .gallery-image .title-hover {
+    display: block;
+    top: 0;
+    background: none;
+  }
+}
+/*----------  1.3. Media screen max width 991px  ----------*/
+@media screen and (max-width: 991px) {
+.MobileTitle {
+  display: table-cell;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+
+    
+.fc-event-title { display:none;}
+
+  .tab-search-transparent .find-widget {
+    padding: 40px;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 40px 70px;
+  }
+  .col-1 {
+    width: 50%;
+    float: left;
+    margin-bottom: 0;
+  }
+  .col-1:nth-child(odd) {
+    padding-right: 15px;
+  }
+  .col-1:nth-child(even) {
+    padding-left: 15px;
+  }
+  .col-1 .widget:last-child {
+    margin-bottom: 0;
+  }
+  .col-2 {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+  }
+  .col-2:last-child {
+    margin-bottom: 0;
+  }
+  .col-2 > .widget:last-child {
+    margin-bottom: 0;
+  }
+  .sidebar-widget {
+    float: left;
+    margin-top: 40px;
+  }
+  .sidebar-widget .widget {
+    margin-bottom: 30px;
+  }
+  .sidebar-widget .find-widget .input-daterange,
+  .sidebar-widget .find-widget .text-box-wrapper {
+    width: 100%;
+  }
+  .sidebar-widget .find-widget .text-box-wrapper.half {
+    width: calc((100% - 8px) / 2);
+    width: -moz-calc((100% - 8px) / 2);
+  }
+  .social-widget ul {
+    margin-left: 0;
+  }
+  .social-widget ul li {
+    width: calc(100% / 6);
+    width: -webkit-calc(100% / 6);
+    width: -moz-calc(100% / 6);
+  }
+  .list-continents .list-continent-wrapper {
+    width: initial;
+    margin: 0 auto;
+  }
+  .list-continent-wrapper .continent {
+    left: 0;
+  }
+  .list-continent-wrapper .continent:after {
+    width: 60px;
+  }
+  /* ---------------- Hotel View ---------------- */
+  .timeline-hotel-view .timeline-block {
+    padding-bottom: 30px;
+  }
+  .timeline-hotel-view .timeline-custom-col,
+  .timeline-hotel-view .timeline-custom-col.hotels-layout {
+    float: none;
+    width: 92%;
+    padding: 0;
+    margin-left: 8%;
+  }
+  .timeline-hotel-view .timeline-custom-col.full {
+    width: 92%;
+  }
+  .timeline-hotel-view .timeline-custom-col.image-col:before {
+    width: 0;
+  }
+  .timeline-book-block {
+    margin-top: 30px;
+  }
+}
+
+/* (1024x768) iPad 1 & 2, XGA */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+.popupStyle.style_2 .modal-dialog, .calendarDiv {
+  width: 97%;
+}	
+.calendarDiv{ left:2%;}
+.group-title, .about-us-wrapper, .subTitle2, .select-drop, .titleStyle1 {
+  padding: 0 !important;
+}
+.show-nav .hamburger-menu {
+  left: -5%;
+}
+.about-us.layout-3 .wrapper-contact-style .about-us-image {
+  left: -350px !important;
+}
+}
+
+/*----------  1.4. Media screen max width 768px  ----------*/
+@media screen and (max-width: 768px) {
+.tour-Info small {
+  font-size: 11px;
+}	
+.about-us {
+  display: none;
+}
+
+.group-title, .about-us-wrapper, .subTitle2, .select-drop, .titleStyle1 {
+  padding: 0px 5%;
+}
+
+.homepage-02 h1.banner {
+  font-size: 2rem !important;
+  line-height: 2rem !important;
+  margin-top: 160px !important;
+}
+
+.slick-slider .link .content-wrapper .btn.btn-default{top: -31px !important;}
+.icon1 { width: 56px !important; }
+
+
+
+
+  /*----------  home page 3  ----------*/
+  .homepage-03 h1.banner {
+    margin-top: 80px;
+  }
+  .tab-search-transparent {
+    margin-bottom: 80px;
+  }
+  /*----------  3.2. Flight Results  ----------*/
+  .result-wrapper .slick-prev,
+  .result-wrapper .slick-next {
+    display: none;
+  }
+  .result-wrapper .slick-dots li.slick-active button {
+    border: 1px solid #ffdd00;
+  }
+  .result-wrapper .slick-dots li.slick-active button:before {
+    color: #ffdd00;
+  }
+  .result-wrapper .slick-dots li button {
+    border: 1px solid #f0f0f0;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 10px 0;
+    display: block;
+  }
+  .result-wrapper .slick-dots li button:before {
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+    line-height: 18px;
+    color: #f0f0f0;
+    opacity: 1;
+  }
+  .padding-bottom {
+    padding-bottom: 80px;
+  }
+  .padding-top {
+    padding-top: 80px;
+  }
+  .padding-top-140 {
+    padding-top: 120px;
+  }
+  .padding-bottom-70 {
+    padding-bottom: 50px;
+  }
+  .margin-top70 {
+    margin-top: 50px;
+  }
+  /* ---------------- Header ---------------- */
+  .header-main {
+    text-align: center;
+  }
+  .header-main .navbar-header {
+    float: none;
+  }
+  .wrapper-mobile-nav {
+    display: block;
+  }
+  .wrapper-mobile-nav .header-topbar {
+    padding: 19px 0;
+  }
+  .hamburger-menu {
+    display: table;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    margin-top: -20px;
+  }
+  .navigation {
+    display: none;
+  }
+.header-02 .hamburger-menu-wrapper {
+  background-color: #01427a;
+}
+  .header-03 .hamburger-menu-wrapper {
+    background-color: #ffdd00;
+  }
+  .header-03 .header-topbar {
+    height: 80px;
+    line-height: 80px;
+  }
+  .header-03 .header-topbar .topbar-left {
+    height: 80px;
+    line-height: 80px;
+  }
+  .header-03 .header-topbar .btn-menu {
+    display: none;
+  }
+  .header-03 .header-topbar .hamburger-menu {
+    position: relative;
+    left: 0;
+  }
+  .header-04 .header-main {
+    height: 80px;
+  }
+  .header-04 .group-logo {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .logo-footer {
+    margin-bottom: 50px;
+  }
+  .about-us-wrapper .group-list ul {
+    margin-left: 20px;
+    max-width: 50%;
+  }
+  .videos.layout-1 .video-wrapper {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .videos.layout-1 .video-thumbnail {
+    width: 100%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    bottom: 0;
+  }
+  .travelers .traveler-wrapper {
+    padding-bottom: 50px;
+  }
+  .travelers .traveler-list {
+    top: 0;
+    margin-bottom: 80px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .travelers .traveler-list .traveler:nth-child(even) {
+    margin-top: 0;
+  }
+  .travelers .traveler-list .slick-list {
+    padding-bottom: 30px;
+  }
+  .new-layout .image-wrapper {
+    display: block;
+    width: 100%;
+  }
+  .new-layout .image-wrapper .link {
+    position: relative;
+  }
+  .new-layout .image-wrapper .link img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+  .new-layout .content-wrapper {
+    padding: 30px;
+    background-color: #fbf9fa;
+  }
+  .news .news-list {
+    margin: 0;
+  }
+  .news .news-list .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    padding: 0;
+    top: auto;
+    right: 0;
+  }
+  .news .news-list .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .news .news-list .slick-list {
+    margin-bottom: 30px;
+  }
+  .contact .contact-wrapper-images {
+    left: 4%;
+  }
+  .banner-sale-1 .title-box {
+    background-size: cover;
+    background-position: center;
+  }
+  .banner-sale-1 .title-box .title-1 {
+    font-size: 50px;
+  }
+  .banner-sale-1 .title-box .title-2 {
+    font-size: 42px;
+  }
+  .banner-sale-1 .title-box .title-3 {
+    font-size: 24px;
+    padding-top: 5px;
+  }
+  .banner-sale-1 .banner-right {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .banner-sale-1 .banner-right .text-salebox {
+    width: 100%;
+  }
+  .banner-sale-2 {
+    height: auto;
+    background-attachment: scroll;
+  }
+  .banner-sale-2 .title-box .title-1 {
+    font-size: 80px;
+  }
+  .banner-sale-2 .banner-building {
+    display: none;
+  }
+  .banner-sale-2 .banner-left,
+  .banner-sale-2 .banner-right {
+    display: block;
+    width: 100%;
+  }
+  .banner-sale-2 .banner-left {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .banner-sale-2 .banner-left .title-box {
+    padding-top: 80px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  }
+  .banner-sale-2 .banner-left .title-box.text-parallax {
+    transform: none;
+  }
+  .banner-sale-2 .text-salebox {
+    padding-top: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 80px;
+    margin: 0;
+    width: 100%;
+  }
+  .text-salebox .text-left {
+    vertical-align: middle;
+  }
+  .text-salebox .text-left .sale-box .number {
+    font-size: 70px;
+  }
+  .text-salebox .text-left .sale-box .sup-1 {
+    font-size: 30px;
+  }
+  .text-salebox .text-left .sale-box .sup-2 {
+    font-size: 26px;
+    bottom: 7px;
+  }
+  .text-salebox .text-left .sale-box .text-sale {
+    font-size: 60px;
+  }
+  .a-fact-image-wrapper {
+    margin-top: 20px;
+    min-height: 420px;
+  }
+  .tours-wrapper .tours-list {
+    margin-bottom: 30px;
+  }
+  .about-us.layout-3 .wrapper-contact-style .about-us-image {
+    margin-top: -50px;
+    bottom: -80px;
+  }
+  .about-us .about-us-image,
+  .about-us.layout-2 .about-us-image {
+    right: auto;
+    max-width: 360px;
+    position: relative;
+    left: 50%;
+    margin-left: -180px;
+    margin-top: 50px;
+  }
+  .about-us-2 .wrapper-contact-style .about-us-image {
+    margin-top: -50px;
+  }
+  .about-us-4 .wrapper-contact-style .about-us-image {
+    margin-top: -100px;
+  }
+  .videos.layout-2 {
+    padding-bottom: 80px;
+  }
+  .videos.layout-2 .video-thumbnail {
+    top: 0;
+  }
+  .videos.layout-2 .text {
+    margin-bottom: 50px;
+  }
+  .banner-sale-3 .text-salebox .text-right {
+    padding-right: 0;
+  }
+  .page-title-wrapper .captions {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .page-title-wrapper .price {
+    display: none;
+  }
+  .title-style-2 {
+    margin-bottom: 40px;
+  }
+  .special-offer .title-style-2 {
+    margin-bottom: 20px;
+  }
+  .page-title-wrapper .page-title-content {
+    bottom: -8px;
+  }
+  .car-rent-layout .image-wrapper {
+    width: 50%;
+    max-width: 370px;
+  }
+  .car-rent-layout .image-wrapper .link img {
+    left: 0;
+  }
+  .hotels-layout .content-wrapper .list-info .share-social-list {
+    left: -90%;
+    padding: 0;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  }
+  .hotels-layout .content-wrapper .list-info li:hover .link + .share-social-list {
+    left: -100%;
+  }
+  .tab-search .tab-btn-wrapper .tab-btn span {
+    display: none;
+  }
+  .tab-search .tab-btn-wrapper .tab-btn i {
+    margin-right: 0;
+  }
+  .tab-search-condensed .nav-tabs {
+    width: 100%;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 40px 50px;
+  }
+  .timeline:before {
+    height: 90%;
+  }
+  .wrapper-timeline-content:before {
+    top: 25%;
+    left: -34px;
+  }
+  .wrapper-timeline-content:after {
+    top: 23%;
+    left: -53px;
+  }
+  .timeline-content {
+    margin-left: 95px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+  }
+  .timeline-custom-col {
+    width: 100%;
+    margin-left: 0px;
+    float: none;
+  }
+  .timeline-custom-col.image-col:before {
+    width: 0;
+  }
+  .timeline-location-block,
+  .timeline-image-block {
+    border: 0px;
+  }
+  .timeline-location-block {
+    min-height: 0px;
+  }
+  .timeline-point {
+    left: -69px;
+  }
+  .timeline-image-block {
+    height: auto;
+  }
+  .expert-block {
+    padding-bottom: 0px;
+  }
+  .expert-block .about-us-wrapper {
+    padding-top: 30px;
+  }
+  .new-style .special-offer-layout .image-wrapper .title-wrapper {
+    bottom: 15px;
+    font-size: 16px;
+  }
+  .new-style .special-offer-layout .image-wrapper .title-wrapper .icons {
+    font-size: 24px;
+  }
+  /*-----Hotel View-----*/
+  .timeline-book-block .find-widget .input-daterange {
+    width: 100%;
+    float: none;
+  }
+  .timeline-book-block .find-widget .text-box-wrapper {
+    width: 50%;
+  }
+  .timeline-book-block .find-widget .text-box-wrapper.place,
+  .timeline-book-block .find-widget .text-box-wrapper.note,
+  .timeline-book-block .find-widget .text-box-wrapper.email,
+  .timeline-book-block .find-widget .text-box-wrapper.phone {
+    width: 100%;
+  }
+  .map-block .map-info {
+    padding-top: 10%;
+  }
+  /*----- Tour Result -----*/
+  .trip-info {
+    height: auto;
+    line-height: 1.4;
+    padding: 20px 0;
+  }
+  .trip-info .label-time-widget {
+    margin-top: 15px;
+  }
+  .label-time-widget {
+    text-align: left;
+  }
+  .main-right {
+    float: left;
+  }
+  .tab-search .tab-btn-wrapper .tab-btn span {
+    display: none;
+  }
+  .tab-search .tab-btn-wrapper .tab-btn i {
+    margin-right: 0;
+  }
+  .tab-search-condensed .nav-tabs {
+    width: 100%;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 40px 50px;
+  }
+  .content-tours .wrapper-icon-thin:before {
+    width: 136px;
+    right: -68px;
+  }
+  .page-contact-form .contact-wrapper {
+    width: 45%;
+    padding: 0;
+  }
+  .page-contact-form .contact-box {
+    padding: 43px 40px;
+  }
+  .wrapper-expert {
+    margin-bottom: 80px;
+  }
+  .wrapper-expert .content-expert:nth-child(even) {
+    margin-top: 0;
+  }
+  .wrapper-expert .slick-dots {
+    bottom: -50px;
+  }
+  .wrapper-expert .slick-dots li.slick-active button {
+    border: 1px solid #ffdd00;
+  }
+  .wrapper-expert .slick-dots li button {
+    border: 1px solid #c3c3c3;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin: 0 0 10px 0;
+    display: block;
+  }
+  .wrapper-expert .slick-dots li.slick-active button:before {
+    color: #ffdd00;
+  }
+  .wrapper-expert .slick-dots li button:before {
+    width: 16px;
+    height: 16px;
+    font-size: 8px;
+    line-height: 18px;
+    color: #c3c3c3;
+    opacity: 1;
+  }
+  /*---------- car-rent-result  ----------*/
+  .result-meta .result-filter-wrapper .result-filter-label {
+    width: 10%;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    width: 145px;
+  }
+  .page-404 .page-clouds-1,
+  .page-404 .page-clouds-2,
+  .page-404 .page-clouds-3 {
+    width: 500%;
+  }
+  /*---------- 404   ----------*/
+  .page-clouds-1 {
+    background-position: center;
+    animation: cloud_left_to_right 100s linear infinite;
+    -webkit-animation: cloud_left_to_right 100s linear infinite;
+    -moz-animation: cloud_left_to_right 100s linear infinite;
+    -ms-animation: cloud_left_to_right 100s linear infinite;
+    -o-animation: cloud_left_to_right 100s linear infinite;
+    background-image: url("../images/background/bg_404_Cloud-1.png");
+    z-index: 1;
+  }
+  .page-clouds-2 {
+    z-index: 3;
+    background-position: top;
+    background-image: url("../images/background/bg_404_Cloud-2.png");
+    animation: cloud_right_to_left 100s linear infinite;
+    -webkit-animation: cloud_right_to_left 100s linear infinite;
+    -moz-animation: cloud_right_to_left 100s linear infinite;
+    -ms-animation: cloud_right_to_left 100s linear infinite;
+    -o-animation: cloud_right_to_left 100s linear infinite;
+  }
+  .page-clouds-3 {
+    background-position: center;
+    animation: cloud_left_to_right 100s linear infinite;
+    -webkit-animation: cloud_left_to_right 100s linear infinite;
+    -moz-animation: cloud_left_to_right 100s linear infinite;
+    -ms-animation: cloud_left_to_right 100s linear infinite;
+    -o-animation: cloud_left_to_right 100s linear infinite;
+    background-image: url("../images/background/bg_404_Cloud-3.png");
+    z-index: 3;
+  }
+  .item-blog-detail .blog-text .blog-content {
+    margin-bottom: 50px;
+  }
+  .margin-bottom {
+    margin-bottom: 80px;
+  }
+  .item-blog-detail .blog-text .blog-comment .comment-count {
+    margin-bottom: 50px;
+  }
+  .item-blog-detail .blog-text .leave-comment {
+    margin-bottom: 80px;
+  }
+  .page-main .sidebar-widget .widget-list {
+    width: calc(100%);
+  }
+  .page-main .sidebar-widget .widget ul.widget-list li.single-widget-item:last-child {
+    padding-bottom: 0;
+  }
+  .item-blog-detail .blog-text .blog-comment .comment-list {
+    margin-bottom: 50px;
+  }
+}
+/*----------  1.5. Media screen max width 767px  ----------*/
+@media screen and (max-width: 767px) {
+.popupStyle.style_2 .modal-dialog {
+  width: 95%;
+}	
+.half-input, .threeInput, .fiveBox {
+  width: 100%;
+}
+.booking {
+  left: 0 !important;
+  z-index: inherit !important;
+  width: 100%;
+}
+div.booking span, div.booking .book-btn {
+  display: inline-block !important;
+}
+.booking > a {
+  padding: 25px 0 10px 90px !important;
+}
+#BackToday .select-drop {
+  padding: 0 ;
+}
+.counting-adlt {
+  display: inline-block;
+  text-align: right;
+  width: 50% !important;
+  padding-right: 0;
+}
+.calendarDiv.display {
+  z-index: 99999;
+}
+.calendarDiv {
+  left: 5%;
+  width: 90%;
+}
+.totalAmt .col-sm-8, .totalAmt .col-sm-4 {
+  display: inline-block;
+  width: 47%;
+}
+	
+.menu-mobile .nav-links {
+    margin: 0;
+  }
+.menu-mobile .main-menu {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+html body.show-nav .hamburger-menu {
+  left: -107px !important;
+}
+	
+	html body.homepage.show-nav .hamburger-menu {
+    left: -163px !important;
+}
+	
+	
+.wrapper-mobile-nav .header-main .login-widget .item {
+  width: 100%;
+}
+.item .main-menu.main-link {
+  background-color: transparent !important;
+  padding-left: 0 !important;
+}
+  .page-banner.homepage-default,
+  .page-banner.homepage-04 {
+    height: 100%;
+  }
+  .homepage-04 .homepage-hero-module {
+    min-height: 667px;
+    max-height: 667px;
+  }
+  .homepage-04 .group-logo {
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+  .homepage-04 .filter,
+  .homepage-04 video {
+    min-height: 667px;
+    max-height: 667px;
+    width: 130% !important;
+    margin-left: -50px !important;
+  }
+  .homepage-banner-warpper {
+    min-height: 667px;
+  }
+  .homepage-default .group-title {
+    margin-bottom: 0;
+  }
+  .homepage-default .group-title .title {
+    font-size: 80px;
+  }
+  .header-main .logo {
+    line-height: 80px;
+  }
+  .wrapper-mobile-nav .header-topbar {
+    padding: 14px 0;
+  }
+  .header-03 .header-topbar .login-widget .search {
+    display: none;
+  }
+  .page-banner {
+    height: 450px;
+  }
+  .hyperlink .slide-logo-wrapper {
+    margin: 50px auto;
+  }
+  .about-us-image {
+    width: 70%;
+    margin: 0 0 0 auto;
+  }
+  .contact .contact-wrapper-images {
+    display: none;
+  }
+  .videos.layout-1 .title {
+    font-size: 50px;
+  }
+  .a-fact-image-wrapper {
+    margin-top: 30px;
+  }
+  .travelers .traveler-list .slick-dots {
+    bottom: -25px;
+  }
+  .text-salebox .text-left,
+  .text-salebox .text-right {
+    display: block;
+  }
+  .text-salebox .text-right {
+    padding-left: 0;
+    padding-top: 8px;
+  }
+  .text-salebox .text-left .sale-box .number {
+    font-size: 56px;
+  }
+  .text-salebox .text-left .sale-box .sup-1 {
+    font-size: 24px;
+    top: 5px;
+  }
+  .text-salebox .text-left .sale-box .sup-2 {
+    font-size: 24px;
+    bottom: 5px;
+  }
+  .text-salebox .text-left .sale-box .text-sale {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .a-fact-image-wrapper {
+    min-height: 400px;
+  }
+  .banner-sale-3 .text-salebox {
+    height: auto;
+    padding: 80px 15%;
+  }
+  .banner-sale-3 .text-salebox .text-right {
+    padding-left: 0;
+  }
+  .trip-info {
+    font-size: 14px;
+  }
+  .trip-info .label-time-widget {
+    margin-top: 10px;
+  }
+  .page-banner,
+  .page-banner-2,
+  .tours,
+  .banner-sale-1,
+  .footer-main,
+  .travelers,
+  .contact,
+  .page-our-values,
+  .about-tours,
+  .page-contact-form,
+  .banner-sale-1 .title-box {
+    background-attachment: scroll;
+  }
+  .homepage-03 h1.banner {
+    font-size: 3.43rem;
+    list-height: 3.43rem;
+  }
+  .homepage-03 h4.sub-banner {
+    font-size: 1rem;
+    line-height: 1.43rem;
+  }
+  .tab-search .count {
+    width: calc((100% - 8px) / 2);
+    width: -webkit-calc((100% - 8px) / 2);
+    width: -moz-calc((100% - 8px) / 2);
+  }
+  .tab-search .find-cruises-widget .count,
+  .tab-search .find-tours-widget .count,
+  .tab-search .find-transfer-widget .count {
+    width: calc((100% - 8px) / 2);
+    width: -webkit-calc((100% - 8px) / 2);
+    width: -moz-calc((100% - 8px) / 2);
+  }
+  .tab-search .find-car-widget .car-count,
+  .tab-search .find-car-widget .input-daterange,
+  .tab-search .find-car-widget .place,
+  .tab-search .find-cruises-widget .place,
+  .tab-search .find-cruises-widget .time-count,
+  .tab-search .find-tours-widget .date,
+  .tab-search .find-tours-widget .place,
+  .tab-search .find-transfer-widget .date,
+  .tab-search .find-transfer-widget .place,
+  .tab-search .input-daterange,
+  .tab-search .place {
+    width: 100%;
+  }
+  .tab-search-long .text-input .text-box-wrapper {
+    margin-top: 20px;
+  }
+  .tab-search-long .text-input > .text-box-wrapper:first-child {
+    margin-top: 0;
+  }
+  .wrapper-journey .slick-prev {
+    left: 10px;
+    top: -15px;
+  }
+  .wrapper-journey .slick-next {
+    right: 10px;
+    top: -15px;
+  }
+  /*----- Tour Result -----*/
+  .tour-result-main .tours-list .col-sm-6:last-child .tours-layout,
+  .cruises-result-main .cruises-list .col-sm-6:last-child .cruises-layout {
+    margin-bottom: 0px;
+  }
+  .tour-result-main .tours-list .col-sm-6 {
+    width: 50%;
+    float: left;
+  }
+  .trip-info {
+    padding: 15px 0;
+  }
+  /*---------- ABOUT  ----------*/
+  .content-tours {
+    width: 33%;
+    margin-bottom: 30px;
+  }
+  .content-tours .tours-title {
+    margin-bottom: 5px;
+  }
+  .content-tours:nth-child(4),
+  .content-tours:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .content-tours .wrapper-icon-thin:before {
+    width: 0;
+  }
+  .content-tours:nth-child(3) .wrapper-icon-thin:before,
+  .content-tours:nth-child(4) .wrapper-icon-thin:before {
+    left: 24px;
+  }
+  .page-contact-form .contact-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  .page-contact-form .contact-box {
+    padding: 50px 40px;
+  }
+  /*---------- car-rent-result  ----------*/
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    padding: 10px 0;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper:nth-child(3),
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper:nth-child(4) {
+    padding: 0 0 20px 0;
+  }
+  .result-meta .result-filter-wrapper .result-filter-label {
+    width: 15%;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    width: 245px;
+  }
+  /*---------- 404   ----------*/
+  .page-404 .page-wrapper {
+    padding-top: 0;
+  }
+  .page-404 .title-1 {
+    font-size: 200px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 5;
+  }
+  .page-404 .title-2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 8;
+  }
+  .page-404:after {
+    z-index: 7;
+  }
+  .page-404 .page-clouds-1,
+  .page-404 .page-clouds-2,
+  .page-404 .page-clouds-3 {
+    z-index: 9;
+  }
+  /*----------  BLOG  ----------*/
+  .item-blog-detail .blog-text .blog-comment .comment-list .comment-list-children {
+    margin-left: 0;
+  }
+  .blog-post .blog-content .heading {
+    margin-bottom: 10px;
+  }
+  .blog-post .blog-content .meta-info {
+    margin-bottom: 20px;
+  }
+  .blog-wrapper .blog-post .blog-content {
+    padding: 30px 0;
+  }
+  .homepage-03 h1.banner {
+    font-size: 3.43rem;
+    list-height: 3.43rem;
+  }
+  .homepage-03 h4.sub-banner {
+    font-size: 1rem;
+    line-height: 1.43rem;
+  }
+  .tab-search .count {
+    width: calc((100% - 8px) / 2);
+    width: -webkit-calc((100% - 8px) / 2);
+    width: -moz-calc((100% - 8px) / 2);
+  }
+  .tab-search .find-cruises-widget .count,
+  .tab-search .find-tours-widget .count,
+  .tab-search .find-transfer-widget .count {
+    width: calc((100% - 8px) / 2);
+    width: -webkit-calc((100% - 8px) / 2);
+    width: -moz-calc((100% - 8px) / 2);
+  }
+  .tab-search .find-car-widget .car-count,
+  .tab-search .find-car-widget .input-daterange,
+  .tab-search .find-car-widget .place,
+  .tab-search .find-cruises-widget .place,
+  .tab-search .find-cruises-widget .time-count,
+  .tab-search .find-tours-widget .date,
+  .tab-search .find-tours-widget .place,
+  .tab-search .find-transfer-widget .date,
+  .tab-search .find-transfer-widget .place,
+  .tab-search .input-daterange,
+  .tab-search .place {
+    width: 100%;
+  }
+  .tab-search-long .text-input .text-box-wrapper {
+    margin-top: 20px;
+  }
+  .tab-search-long .text-input > .text-box-wrapper:first-child {
+    margin-top: 0;
+  }
+  .item-blog-detail .blog-text .leave-comment {
+    margin-bottom: 40px;
+  }
+  .item-blog-detail .blog-text .blog-detail-tag {
+    margin-bottom: 50px;
+  }
+  /*----------  3.2. Flight Results  ----------*/
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper.price {
+    width: 245px;
+  }
+}
+/*----------  1.6. Media screen max width 600px  ----------*/
+@media screen and (max-width: 600px) {
+
+.pricediv {
+  height: auto;
+  width: 100%;
+}
+.rateBox .childPrices {
+    width: 100%;
+    display: none;
+}
+.tabStyle2.tab-search .tab-btn-wrapper {
+  width: calc(100% / 6);
+}
+.tourTop .tabStyle2.tab-search .tab-btn-wrapper {
+  width: 19.7% !important;
+}
+.tourTop .tabStyle2.tab-search .tab-btn-wrapper .tab-btn i {
+  font-size: 20px;
+    line-height: 40px;
+}
+.container {
+  padding: 0 !important;
+}
+.airlinediv {
+  width: 34%;
+}
+.paymentDiv .title {
+  width: 100% !important;
+}
+.fullwidthbanner .item {
+  background-size: contain;
+  height: 103px !important;
+  margin-top: 142px;
+}
+.fullwidthbanner, .fullwidthbanner-container {
+  height: 103px !important;
+  margin-bottom: 140px;
+}
+.departure-date li {
+  float: left;
+  margin-bottom: 0;
+  margin-right: 0;
+  text-align: center;
+  width: 33%;
+  border-top: 1px saddlebrown #CCC !important;
+  margin-bottom: 1px;
+}
+.departure {
+  margin-top: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+
+
+
+
+
+
+  /*----------  home page 3  ----------*/
+  .homepage-03 h1.banner {
+    margin-top: 60px;
+  }
+  .tab-search-transparent {
+    margin-bottom: 60px;
+  }
+  .menu-mobile .main-menu {
+    font-size: 14px;
+  }
+  .homepage-04 .group-logo {
+    padding-top: 0;
+  }
+  .hamburger-menu {
+    left: 20px;
+  }
+  .padding-bottom {
+    padding-bottom: 60px;
+  }
+  .padding-top {
+    padding-top: 60px;
+  }
+  .padding-bottom-70 {
+    padding-bottom: 40px;
+  }
+  .padding-top-140 {
+    padding-top: 100px;
+  }
+  .margin-top70 {
+    margin-top: 40px;
+  }
+  .homepage-04 .filter,
+  video {
+    width: 150% !important;
+    margin-left: -100px !important;
+  }
+  footer .widget .title-widget {
+    margin-bottom: 20px;
+  }
+  .hyperlink .slide-logo-wrapper {
+    margin: 40px auto;
+  }
+  .about-us-image {
+    width: 60%;
+  }
+  .tours .tours-wrapper .tours-content {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .videos.layout-1 .video-thumbnail {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+  .travelers .traveler-list {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .new-layout .content-wrapper .title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .travelers .traveler-wrapper {
+    padding-bottom: 20px;
+  }
+  .a-fact-image-wrapper {
+    min-height: 340px;
+  }
+  .banner-sale-1 .title-box .title-1 {
+    font-size: 70px;
+  }
+  .banner-sale-1 .title-box .title-2 {
+    font-size: 60px;
+  }
+  .banner-sale-1 .title-box .title-3 {
+    font-size: 40px;
+    padding-top: 7px;
+  }
+  .banner-sale-1 .title-box .title-overlay {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .banner-sale-1 .banner-left,
+  .banner-sale-1 .banner-right {
+    display: block;
+    width: 100%;
+  }
+  .banner-sale-1 .banner-right {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tours-wrapper .tours-list {
+    margin: 0 0 30px 0;
+  }
+  .videos.layout-2 {
+    padding-bottom: 60px;
+  }
+  .videos.layout-2 .video-thumbnail {
+    height: 360px;
+  }
+  .banner-sale-2 .banner-left .title-box {
+    padding-top: 60px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 0;
+  }
+  .banner-sale-2 .text-salebox {
+    padding-top: 0;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 60px;
+  }
+  .videos.layout-2 .text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .banner-sale-3 .text-salebox {
+    height: auto;
+    padding: 60px 15%;
+  }
+  .page-title-wrapper .captions {
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+  }
+  .page-title-wrapper .breadcrumb li .link.home {
+    font-size: 18px;
+  }
+  .subscribe-email-title {
+    font-size: 18px;
+  }
+  .subscribe-email-title .logo-text {
+    font-size: 26px;
+  }
+  .subscribe-email-text {
+    font-size: 14px;
+  }
+  .car-rent-layout .content-wrapper {
+    padding: 20px;
+  }
+  .car-rent-layout .content-wrapper .title {
+    font-size: 16px;
+  }
+  .car-rent-layout .content-wrapper .price {
+    font-size: 20px;
+  }
+  .car-rent-layout .content-wrapper .price sup {
+    top: 5px;
+    right: -1px;
+  }
+  .car-rent-layout .image-wrapper {
+    width: 55%;
+  }
+  .car-rent-layout .image-wrapper .link img {
+    left: -40px;
+  }
+  .cruises-layout .content-wrapper {
+    padding: 20px;
+  }
+  .cruises-layout .content-wrapper .title {
+    font-size: 16px;
+  }
+  .cruises-layout .content-wrapper .price {
+    font-size: 20px;
+  }
+  .tours-layout .content-wrapper > .content {
+    padding: 30px 15px;
+  }
+  .about-us-4 .wrapper-contact-style .about-us-image {
+    bottom: -90px;
+  }
+  .homepage-02 h1.banner {
+    font-size: 4.64rem;
+    line-height: 4.64rem;
+  }
+  .homepage-03 h1.banner {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 40px;
+  }
+  .schedule-block {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .schedule-block .element {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+    border-right: 0px;
+    border-bottom: 1px solid #FFF;
+  }
+  .schedule-block .element:last-child {
+    border-bottom: 0px;
+  }
+  .schedule-block .element .schedule-title {
+    display: inline-block;
+    padding: 6px;
+    font-weight: bold;
+    width: 50%;
+    border-right: 1px solid #FFF;
+  }
+  .schedule-block .element .schedule-content {
+    padding: 6px;
+  }
+  .wrapper-timeline-content:before {
+    left: -14px;
+  }
+  .wrapper-timeline-content:after {
+    left: -24px;
+  }
+  .timeline-content {
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .timeline-point {
+    left: -39px;
+  }
+  .timeline-custom-col {
+    width: 100%;
+  }
+  .timeline-custom-col:before {
+    left: -4px;
+  }
+  .timeline-hotel-view .timeline-content {
+    margin-top: 50px;
+  }
+  .gallery-block {
+    padding-bottom: 40px;
+  }
+  .gallery-block .grid .grid-item {
+    margin: 5px 0;
+    width: 100%;
+    float: left;
+  }
+  .gallery-block .grid .grid-item.img-small {
+    width: 50%;
+  }
+  .gallery-block .pdr {
+    padding-right: 5px;
+  }
+  .gallery-block .pdl {
+    padding-left: 5px;
+  }
+  .expert-block .title-style-2 {
+    margin: 0 0 30px 0;
+  }
+  .new-style .special-offer-layout .image-wrapper .title-wrapper {
+    font-size: 18px;
+  }
+  .map-block .map-info {
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  /*----- Tour Result -----*/
+  .tour-result-main .list-continents {
+    display: block;
+    margin-bottom: 40px;
+  }
+  .list-continents .list-continent-wrapper {
+    margin: 20px;
+  }
+  .list-continent-wrapper .continent:after {
+    width: 0;
+  }
+  .tour-result-main .tours-layout .content-wrapper > .content .group-btn-tours {
+    padding: 0 5px;
+  }
+  /*----- Blog Detail -----*/
+  .item-blog-detail .blog-text .leave-comment {
+    margin-bottom: 20px;
+  }
+  .single-recent-post-widget .post-info .meta-info,
+  .single-recent-post-widget .post-info .single-rp-preview {
+    line-height: 18px;
+  }
+  .car-rent-layout .image-wrapper {
+    width: 290px;
+  }
+  .our-wrapper {
+    margin-bottom: 40px;
+  }
+  .our-wrapper .col-xs-3 {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  .our-wrapper .col-xs-3:nth-child(3),
+  .our-wrapper .col-xs-3:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .content-tours {
+    width: 33%;
+    margin-bottom: 30px;
+  }
+  .content-tours:nth-child(4),
+  .content-tours:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .wrapper-organization .md-organization {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .wrapper-organization .md-organization:last-child {
+    margin-bottom: 0;
+  }
+  .wrapper-organization .md-organization:nth-child(3) {
+    width: 100%;
+    text-align: center;
+  }
+  .blog-post .blog-content .meta-info {
+    margin-bottom: 10px;
+  }
+  .item-blog-detail .blog-text .blog-content .blog-descritption .text {
+    margin-bottom: 15px;
+  }
+  .item-blog-detail .blog-text .blog-content .blog-descritption .blockquote {
+    margin: 20px 20px;
+  }
+  .item-blog-detail .blog-text .blog-content .blog-descritption .video-thumbnail {
+    margin-top: 30px;
+  }
+  .item-blog-detail .blog-text .blog-content .blog-descritption .caption {
+    margin-bottom: 10px;
+  }
+  .item-blog-detail .blog-text .blog-content {
+    margin-bottom: 30px;
+  }
+  /*---------- car-rent-result  ----------*/
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    width: 210px;
+  }
+  .page-404 .page-content {
+    width: 100%;
+  }
+  .page-404 .title-1 {
+    margin-bottom: 0;
+  }
+  .page-404 .title-2 {
+    margin-bottom: 20px;
+  }
+  .homepage-02 h1.banner {
+    font-size: 4.64rem;
+    line-height: 4.64rem;
+  }
+  .homepage-03 h1.banner {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 40px;
+  }
+  .schedule-block {
+    width: 100%;
+  }
+  .timeline:before {
+    height: 85%;
+  }
+  .timeline-location-block {
+    padding: 15px 20px;
+    min-height: 0;
+  }
+  .timeline-location-block .location-name .icon-marker {
+    border: 0px;
+    right: 0;
+    left: auto;
+    font-size: 20px;
+  }
+  .about-us-wrapper .col-contact {
+    width: 100%;
+  }
+  .about-us-wrapper .contact-list-media {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .contact-list-media .media-left,
+  .contact-list-media .media-right {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .contact-list-media .media-right {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .contact-list-media .media-left {
+    padding-bottom: 0px;
+  }
+  /*Hotel View*/
+  .timeline-hotel-view .timeline-title {
+    position: static;
+    margin-bottom: -1px;
+  }
+  .timeline-hotel-view .timeline-content {
+    margin: 0;
+    width: 100%;
+  }
+  .timeline-hotel-view .timeline-custom-col,
+  .timeline-hotel-view .timeline-custom-col.hotels-layout {
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+  }
+  .timeline-hotel-view .timeline-custom-col.full {
+    width: 100%;
+  }
+  .timeline-book-block .find-widget .text-box-wrapper {
+    padding: 0 10px;
+  }
+  /*----- Tour Result -----*/
+  .tour-result-main .tours-list .col-sm-6:nth-last-child(-n+2) .tours-layout,
+  .cruises-result-main .cruises-list .col-sm-6:nth-last-child(-n+2) .cruises-layout {
+    margin-bottom: 30px;
+  }
+  .tour-result-main .tours-list .col-sm-6:last-child .tours-layout,
+  .cruises-result-main .cruises-list .col-sm-6:last-child .cruises-layout {
+    margin-bottom: 0px;
+  }
+  .result-body .sidebar-widget .col-1 {
+    width: 100%;
+    padding: 0;
+    float: none;
+  }
+  .result-body .sidebar-widget .col-1:last-child {
+    padding: 0;
+  }
+  .tour-result-main .tours-list .col-sm-6 {
+    width: 100%;
+    float: none;
+  }
+  .content-organization {
+    display: block;
+  }
+  .wrapper-organization .md-organization {
+    width: 100%;
+  }
+  .our-wrapper .col-xs-3 {
+    margin-bottom: 30px;
+  }
+  .content-organization .wrapper-img {
+    margin: 0 auto 20px;
+  }
+  .content-organization .organization-title .text {
+    margin-bottom: 10px;
+  }
+  /*---------- car-rent-result  ----------*/
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper:nth-child(3),
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper:nth-child(4) {
+    padding: 0 10px;
+  }
+  .result-meta .result-filter-wrapper .result-filter-label {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    padding-left: 0;
+    line-height: 40px;
+  }
+  .result-meta .result-filter-wrapper .selection-bar {
+    display: block;
+    width: 100%;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper:nth-child(4) {
+    margin-bottom: 20px;
+  }
+  /*---------- cruises-result  ----------*/
+  .main-right .cruises-list .col-xs-6 {
+    width: 100%;
+  }
+  /*----------  3.2. Flight Results  ----------*/
+  .result-meta .result-filter-wrapper .selection-bar .select-wrapper.price {
+    width: 100%;
+  }
+  .single-flight-result .flight-result-wrapper {
+    padding: 10px;
+  }
+  .single-flight-result .flight-result-wrapper .airlines-logo {
+    position: relative;
+    top: 25px;
+  }
+  .single-flight-result .flight-result-wrapper .info {
+    vertical-align: middle;
+  }
+}
+/*----------  1.7. Media screen max width 480px  ----------*/
+@media screen and (max-width: 480px) {
+.formStyle4 .tourInfo.tourInfo2::after {
+  border-width: 50px 180px 0;
+}
+.hamburger-menu-wrapper .icons::after, .hamburger-menu-wrapper .icons::before {
+  background-color: #01427A !important;
+}
+
+.depGroups .departure-date li{width: 80% !important; margin-left: 10%;}
+
+
+  .margin-bottom {
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .blog-comment .comment-count {
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .leave-comment {
+    margin-bottom: 60px;
+  }
+  .page-main .blog-content .col-xs-1,
+  .page-main .blog-content .col-xs-2 {
+    width: 100%;
+  }
+  .page-main .blog-content .col-xs-10,
+  .page-main .blog-content .col-xs-11 {
+    width: 100%;
+  }
+  .item-blog-detail .blog-text .blog-content .date {
+    margin-bottom: 10px;
+  }
+  .blog-post .blog-content .date .day {
+    display: inline-block;
+  }
+  .blog-post .blog-content .date .month {
+    display: inline-block;
+  }
+  .blog-post .blog-content .date .year {
+    display: inline-block;
+  }
+  .item-blog-detail .blog-text .blog-author .blog-author-content .media-left .media-image img {
+    height: 80px;
+    width: 80px;
+  }
+  .item-blog-detail .blog-text .blog-author {
+    padding: 0 15px 15px 15px;
+  }
+  .item-blog-detail .blog-text .blog-comment .comment-list .comment-item:not(:last-child) {
+    padding: 0 15px 15px 0;
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .leave-comment {
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .blog-detail-tag .content-tag {
+    padding-right: 20px;
+  }
+  .item-blog-detail .blog-text .leave-comment .contact-form .form-input:nth-child(3) {
+    margin-bottom: 20px;
+  }
+  .item-blog-detail .blog-text .blog-comment .comment-list .comment-list-children li .comment-item {
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .blog-comment .comment-list {
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .blog-content {
+    padding: 20px 0 0 0;
+  }
+  .item-blog-detail .blog-text .blog-comment-title {
+    margin-bottom: 30px;
+  }
+  .item-blog-detail .blog-text .blog-content .blog-descritption .video-thumbnail {
+    height: 250px;
+  }
+  .blog-wrapper .blog-post .blog-content .date {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .blog-wrapper .blog-post .blog-content {
+    padding: 20px 20px;
+  }
+  .blog-wrapper .blog-post .blog-content .preview {
+    margin-bottom: 20px;
+  }
+  .blog-wrapper .video-thumbnail {
+    height: 250px;
+  }
+  .item-blog-detail .blog-text .blog-detail-tag {
+    margin-bottom: 30px;
+  }
+  .group-title .sub-title .icons {
+    font-size: 24px;
+  }
+  .group-title .main-title {
+    font-size: 24px;
+  }
+  .hamburger-menu {
+    left: 15px;
+  }
+  .wrapper-mobile-nav .header-topbar {
+    padding: 15px 0;
+  }
+  .header-main .navbar-header {
+    float: right;
+  }
+  .header-01 .header-main .navbar-header {
+    float: right;
+  }
+  .header-01 .header-main .logo .header-logo img {
+    max-width: 150px;
+  }
+  .header-main .logo .header-logo img {
+    max-width: 150px;
+  }
+  .homepage-default .group-title {
+    text-align: center;
+  }
+  .homepage-default .group-title .title {
+    font-size: 60px;
+  }
+  .menu-mobile .icons-dropdown {
+    width: 50px;
+  }
+  .header-03 .header-topbar .login-widget li + li:before {
+    padding: 0 13px 0 4px;
+  }
+  .page-title-wrapper .breadcrumb li .link {
+    line-height: 28px;
+  }
+  .page-title-wrapper .breadcrumb li .link.home {
+    font-size: 16px;
+  }
+  .page-title-wrapper .captions {
+    margin: 10px 0 0 0;
+    font-size: 50px;
+    line-height: 50px;
+  }
+ .about-us-image {
+  width: 100%;
+  margin: 0 !important;
+  left: -15px !important;
+  right: 0 !important;
+  position: relative !important;
+  max-width: 320px !important;
+  height: auto !important;
+  min-height: auto !important;
+  padding-top: 0 !important;
+  top: 0;
+}
+.tour-Info .col-md-6 {
+  padding: 0 !important;
+}
+  .about-us-wrapper .group-list ul {
+    margin-left: 0;
+  }
+  .about-us-wrapper .group-list ul li {
+    padding-left: 0;
+  }
+  .tours-wrapper .tours-list {
+    margin-bottom: 30px;
+  }
+  .videos.layout-1 .sub-title {
+    font-size: 16px;
+  }
+  .videos.layout-1 .sub-title strong {
+    font-size: 20px;
+  }
+  .videos.layout-1 .title {
+    font-size: 36px;
+  }
+  .videos.layout-1 .video-thumbnail {
+    height: 290px;
+  }
+  .hotels-layout .image-wrapper,
+  .hotels-layout .content-wrapper {
+    display: block;
+    width: 100%;
+  }
+  .hotels-layout .image-wrapper {
+    height: auto;
+  }
+  .hotels-layout .image-wrapper .link img {
+    position: relative;
+    width: 100%;
+    max-width: none;
+  }
+  .hotels-layout .content-wrapper > .content {
+    padding: 30px 75px 30px 30px;
+  }
+  .hotels-layout .content-wrapper > .content .title .for-price {
+    max-width: none;
+    padding-bottom: 0;
+  }
+  .a-fact-image-wrapper {
+    min-height: 280px;
+  }
+  .tours .tours-wrapper .tours-content {
+    max-width: none;
+  }
+  .tours-wrapper .tours-list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .travelers .traveler-list {
+    max-width: none;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .slick-slide img {
+    width: 100%;
+  }
+  .banner-sale-1 .title-box .title-overlay {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .banner-sale-1 .banner-right {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .about-us.layout-2 .group-list .col-xs-6 {
+    width: 100%;
+  }
+  .about-us.layout-2 .group-list .col-xs-6 .box-media .media-right {
+    vertical-align: middle;
+  }
+  .videos.layout-2 .title {
+    font-size: 30px;
+  }
+  .videos.layout-2 .video-thumbnail {
+    height: 290px;
+  }
+  .banner-sale-2 .title-box .title-1 {
+    font-size: 70px;
+  }
+  .banner-sale-2 .banner-left .title-box {
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0;
+  }
+  .banner-sale-2 .text-salebox {
+    padding-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+  }
+  .banner-sale-3 .text-salebox {
+    padding: 60px 15px;
+  }
+  /*---------- car-rent-result  ----------*/
+  .car-rent-layout {
+    display: block;
+  }
+  .car-rent-layout .image-wrapper {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: none;
+  }
+  .car-rent-layout .image-wrapper .link img {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    left: 0;
+  }
+  .car-rent-layout .content-wrapper {
+    display: block;
+    padding: 20px 30px 30px 30px;
+  }
+  .car-rent-layout .content-wrapper .title {
+    font-size: 20px;
+  }
+  .car-rent-layout .content-wrapper .price {
+    font-size: 26px;
+  }
+  .car-rent-layout .content-wrapper .price sup {
+    right: -10px;
+  }
+  .cruises-layout .content-wrapper {
+    padding: 30px;
+  }
+  .cruises-layout .content-wrapper .title {
+    font-size: 20px;
+  }
+  .cruises-layout .content-wrapper .price {
+    font-size: 26px;
+  }
+  .tours-layout .content-wrapper > .content {
+    padding: 30px;
+  }
+  .homepage-02 h1.banner {
+    font-size: 3.57rem;
+    line-height: 3.57rem;
+  }
+  .homepage-02 h4.sub-banner {
+    font-size: 1rem;
+  }
+  .homepage-03 h1.banner {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .col-1 {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .col-1:last-child {
+    margin-bottom: 0;
+  }
+  .col-1:nth-child(even),
+  .col-1:nth-child(odd) {
+    padding: 0;
+  }
+  .categories-widget .content-widget {
+    padding-right: 10px;
+  }
+  .find-widget .ffw-radio-selection {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+  .find-widget .ffw-radio-selection span.ffw-radio-btn-wrapper {
+    display: block;
+    margin-top: 10px;
+  }
+  .find-widget .ffw-radio-selection span.ffw-radio-btn-wrapper:first-child {
+    margin-top: 0;
+  }
+  .tab-search .nav-tabs {
+    display: block;
+  }
+  .tab-search-transparent .tab-btn-wrapper .tab-btn {
+    height: 50px;
+    line-height: 50px;
+  }
+  .tab-search-transparent .tab-btn-wrapper:first-child .tab-btn {
+    border-radius: 0 15px 0 0;
+    -webkit-border-radius: 0 15px 0 0;
+    -moz-border-radius: 0 15px 0 0;
+  }
+  .tab-search-transparent .tab-btn-wrapper:last-child .tab-btn {
+    border-radius: 0 0 15px 0;
+    -webkit-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+  }
+  .tab-search-transparent .nav-tabs > li {
+    float: none;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50px;
+  }
+  .tab-search-transparent .tab-content {
+    margin-right: 50px;
+  }
+  .tab-search-transparent .find-widget {
+    padding: 40px 30px;
+  }
+  .tab-search-default .nav-tabs.slick-slider {
+    margin-bottom: 0;
+  }
+  .tab-search-default .find-widget {
+    padding: 30px 0;
+  }
+  .tab-search-default .text-input {
+    margin-top: 0;
+  }
+  .tab-search-default .ffw-radio-selection {
+    margin-bottom: 20px;
+  }
+  .tab-search-default .tab-btn-wrapper {
+    width: 100%;
+    margin-right: 0;
+  }
+  .tab-search-default .tab-btn-wrapper:first-child .tab-btn,
+  .tab-search-default .tab-btn-wrapper:last-child .tab-btn,
+  .tab-search-default .tab-btn-wrapper .tab-btn {
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+  }
+  .tab-search-default .tab-btn-wrapper .tab-btn i {
+    font-size: 2.14rem;
+  }
+  .tab-search-default .tab-btn-wrapper .tab-btn span.xs {
+    font-size: 1.29rem;
+    vertical-align: baseline;
+  }
+  .tab-search-default .tab-btn-wrapper.active .tab-btn {
+    background-color: #222;
+  }
+  .tab-search-default .tab-btn-wrapper.active .tab-btn i {
+    color: #ffdd00;
+  }
+  .tab-search-default .slick-prev {
+    left: 20px;
+    z-index: 1;
+  }
+  .tab-search-default .slick-prev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+  }
+  .tab-search-default .slick-next {
+    right: 20px;
+  }
+  .tab-search-default .slick-next:before {
+    content: '\f105';
+    font-family: FontAwesome;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 30px;
+  }
+  .tab-search-condensed .find-widget .title-widgets {
+    margin-bottom: 20px;
+  }
+  .tab-search-condensed .find-widget .text-input {
+    margin-top: 20px;
+  }
+  .tab-search-condensed .find-widget .text-box-wrapper.half.from,
+  .tab-search-condensed .find-widget .text-box-wrapper.half.outer,
+  .tab-search-condensed .find-widget .text-box-wrapper.half.to {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .tab-search-condensed .find-widget .text-box-wrapper.half.to {
+    margin-top: 20px;
+  }
+  .tab-search-condensed .input-daterange .text-box-wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .tab-search-condensed .tab-btn-wrapper .tab-btn {
+    height: 50px;
+    line-height: 50px;
+  }
+  .tab-search-condensed .nav-tabs > li {
+    float: none;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50px;
+  }
+  .tab-search-condensed .tab-content {
+    margin-right: 50px;
+  }
+  .homepage-02 h1.banner {
+    font-size: 3.57rem;
+    line-height: 3.57rem;
+  }
+  .homepage-02 h4.sub-banner {
+    font-size: 1rem;
+  }
+  .homepage-03 h1.banner {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .col-1 {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .col-1:last-child {
+    margin-bottom: 0;
+  }
+  .col-1:nth-child(even),
+  .col-1:nth-child(odd) {
+    padding: 0;
+  }
+  .categories-widget .content-widget {
+    padding-right: 10px;
+  }
+  .find-widget .ffw-radio-selection {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+  .find-widget .ffw-radio-selection span.ffw-radio-btn-wrapper {
+    display: block;
+    margin-top: 10px;
+  }
+  .find-widget .ffw-radio-selection span.ffw-radio-btn-wrapper:first-child {
+    margin-top: 0;
+  }
+  .tab-search .nav-tabs {
+    display: block;
+  }
+  .tab-search-transparent .tab-btn-wrapper .tab-btn {
+    height: 50px;
+    line-height: 50px;
+  }
+  .tab-search-transparent .tab-btn-wrapper:first-child .tab-btn {
+    border-radius: 0 15px 0 0;
+    -webkit-border-radius: 0 15px 0 0;
+    -moz-border-radius: 0 15px 0 0;
+  }
+  .tab-search-transparent .tab-btn-wrapper:last-child .tab-btn {
+    border-radius: 0 0 15px 0;
+    -webkit-border-radius: 0 0 15px 0;
+    -moz-border-radius: 0 0 15px 0;
+  }
+  .tab-search-transparent .nav-tabs > li {
+    float: none;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50px;
+  }
+  .tab-search-transparent .tab-content {
+    margin-right: 50px;
+  }
+  .tab-search-transparent .find-widget {
+    padding: 40px 30px;
+  }
+  .tab-search-default .nav-tabs.slick-slider {
+    margin-bottom: 0;
+  }
+  .tab-search-default .find-widget {
+    padding: 30px 0;
+  }
+  .tab-search-default .text-input {
+    margin-top: 0;
+  }
+  .tab-search-default .ffw-radio-selection {
+    margin-bottom: 20px;
+  }
+  .tab-search-default .tab-btn-wrapper {
+    width: 100%;
+    margin-right: 0;
+  }
+  .tab-search-default .tab-btn-wrapper:first-child .tab-btn,
+  .tab-search-default .tab-btn-wrapper:last-child .tab-btn,
+  .tab-search-default .tab-btn-wrapper .tab-btn {
+    border-radius: 15px 15px 0 0;
+    -webkit-border-radius: 15px 15px 0 0;
+    -moz-border-radius: 15px 15px 0 0;
+  }
+  .tab-search-default .tab-btn-wrapper .tab-btn i {
+    font-size: 2.14rem;
+  }
+  .tab-search-default .tab-btn-wrapper .tab-btn span.xs {
+    font-size: 1.29rem;
+    vertical-align: baseline;
+  }
+  .tab-search-default .tab-btn-wrapper.active .tab-btn {
+    background-color: #222;
+  }
+  .tab-search-default .tab-btn-wrapper.active .tab-btn i {
+    color: #ffdd00;
+  }
+  .tab-search-default .slick-prev {
+    left: 20px;
+    z-index: 1;
+  }
+  .tab-search-default .slick-prev:before {
+    content: '\f104';
+    font-family: FontAwesome;
+  }
+  .tab-search-default .slick-next {
+    right: 20px;
+  }
+  .tab-search-default .slick-next:before {
+    content: '\f105';
+    font-family: FontAwesome;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 30px;
+  }
+  .tab-search-condensed .find-widget .title-widgets {
+    margin-bottom: 20px;
+  }
+  .tab-search-condensed .find-widget .text-input {
+    margin-top: 20px;
+  }
+  .tab-search-condensed .find-widget .text-box-wrapper.half.from,
+  .tab-search-condensed .find-widget .text-box-wrapper.half.outer,
+  .tab-search-condensed .find-widget .text-box-wrapper.half.to {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .tab-search-condensed .find-widget .text-box-wrapper.half.to {
+    margin-top: 20px;
+  }
+  .tab-search-condensed .input-daterange .text-box-wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .tab-search-condensed .tab-btn-wrapper .tab-btn {
+    height: 50px;
+    line-height: 50px;
+  }
+  .tab-search-condensed .nav-tabs > li {
+    float: none;
+    margin-left: auto;
+    margin-right: 0;
+    width: 50px;
+  }
+  .tab-search-condensed .tab-content {
+    margin-right: 50px;
+  }
+  /*----------  3.2. Flight Results  ----------*/
+  .single-flight-result {
+    height: auto;
+  }
+  .result-body .col-xs-9 {
+    width: 100%;
+  }
+  .result-body .col-xs-3 {
+    width: 100%;
+  }
+  .single-flight-result form.flight-class {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #e9e9e9;
+    border-left: 0;
+  }
+  .single-flight-result form.flight-class .class-selection-wrapper {
+    width: 33.3%;
+    float: left;
+  }
+  .single-flight-result form.flight-class .class-selection-wrapper {
+    border: 0;
+  }
+  .single-flight-result .flight-result-wrapper .airlines-logo {
+    top: 0;
+    padding-right: 10px;
+  }
+  .single-flight-result .flight-result-wrapper .info .miscellaneous {
+    font-size: .88rem;
+  }
+}
+/*----------  1.8. Media screen max width 414px  ----------*/
+@media screen and (max-width: 414px) {
+  .login-widget {
+    display: block;
+    margin: 0 10px 0 0 !important; 
+  }
+  .menu-mobile {
+    background-color: #ffdd00;
+    text-align: center;
+  }
+  .wrapper-mobile-nav .header-main .login-widget {
+    display: inline-block;
+  }
+  .wrapper-mobile-nav .header-main .login-widget li {
+    width: auto;
+    border-bottom: none;
+  }
+  .header-03 .header-topbar .col-xs-4 {
+    width: 50%;
+  }
+  .header-03 .header-topbar .topbar-right {
+    display: none;
+  }
+  .header-03 .header-topbar .topbar-center {
+    float: right;
+  }
+  .header-03 .header-topbar .header-logo img {
+    max-width: 150px;
+  }
+  .homepage-04 .group-logo {
+    padding-bottom: 30px;
+  }
+  .homepage-04 .group-logo .img-logo {
+    width: 200px;
+  }
+  .homepage-04 .group-title .title {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+  }
+  .homepage-04 .group-title .text {
+    font-size: 14px;
+  }
+  .homepage-04 .filter,
+  .homepage-04 video {
+    width: 178% !important;
+    margin-left: -150px !important;
+  }
+  footer .col-md-2,
+  footer .col-md-3,
+  footer .col-md-6,
+  footer .col-md-5 {
+    width: 100%;
+  }
+  footer .widget {
+    margin-bottom: 30px;
+  }
+  footer .destination-widget {
+    margin-bottom: 0;
+  }
+  .about-us-wrapper .group-list ul li {
+    padding-left: 0;
+  }
+  .videos.layout-1 .title {
+    font-size: 30px;
+  }
+  .videos.layout-1 .video-thumbnail {
+    height: 260px;
+  }
+  .a-fact-image-wrapper {
+    min-height: 250px;
+  }
+  .contact-box {
+    padding: 30px;
+  }
+  .booking-widget {
+    text-align: left !important;
+  }
+  .tours-layout .content-wrapper > .content {
+    padding: 30px;
+  }
+  .videos.layout-2 .title {
+    font-size: 26px;
+  }
+  .videos.layout-2 .video-thumbnail {
+    height: 260px;
+  }
+  .title-style-2 {
+    font-size: 22px;
+  }
+  .title-style-2:after {
+    left: 0;
+    right: 0;
+    bottom: -10px;
+  }
+  .group-title .sub-title .text {
+    font-size: 14px;
+  }
+  .group-title .sub-title .icons {
+    font-size: 18px;
+  }
+  .group-title .sub-title .icons:after {
+    bottom: 4px;
+  }
+  .group-title .main-title {
+    font-size: 22px;
+  }
+  .datepicker {
+    width: 280px;
+  }
+  .datepicker .table-condensed {
+    width: 100%;
+  }
+  .title-style-2:after {
+    left: 0;
+    right: 0;
+    bottom: -10px;
+  }
+  .gallery-block .grid .grid-item.img-small {
+    width: 100%;
+  }
+  .gallery-block .pdr {
+    padding-right: 0px;
+  }
+  .gallery-block .pdl {
+    padding-left: 0px;
+  }
+  .gallery-image .bg {
+    height: 250px;
+  }
+  .timeline:before {
+    height: 90%;
+  }
+  .wrapper-timeline-content:before,
+  .wrapper-timeline-content:after {
+    display: none;
+  }
+  .timeline-title {
+    margin-bottom: -1px;
+  }
+  .timeline-content {
+    margin: 0 0 30px 0;
+  }
+  .timeline-custom-col:before {
+    width: 0;
+  }
+  .timeline-point {
+    display: none;
+  }
+  .about-us-wrapper .avatar {
+    width: 100%;
+  }
+  .about-us-wrapper .contact-list-media {
+    width: 80%;
+  }
+  .contact-list-media .media-right {
+    text-align: left;
+    padding-left: 20px;
+  }
+  /*----- Hotel View -----*/
+  .timeline-hotel-view .slider-nav.slick-slider {
+    margin-bottom: 0px;
+  }
+  .timeline-book-block {
+    margin-top: 0px;
+  }
+  /*----- Tour Result -----*/
+  .datepicker thead .dow {
+    width: 0;
+  }
+  .datepicker {
+    width: 280px;
+  }
+  .datepicker .table-condensed {
+    width: 100%;
+  }
+}
+/*----------  1.9. Media screen max width 380px  ----------*/
+@media screen and (max-width: 380px) {
+  .homepage-04 .form-subscribe-email {
+    width: 300px;
+  }
+  .wrapper-mobile-nav {
+    width: 82%;
+  }
+/*  .show-nav .wrapper-content {
+    transform: translate3d(82%, 0, 0);
+    -webkit-transform: translate3d(82%, 0, 0);
+    -moz-transform: translate3d(82%, 0, 0);
+    -ms-transform: translate3d(82%, 0, 0);
+    -o-transform: translate3d(82%, 0, 0);
+  }*/
+  .about-us-wrapper .group-list ul {
+    max-width: 400px;
+  }
+  .group-button .btn {
+    display: block;
+  }
+  .group-button .btn:first-child {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .travelers .traveler-list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .banner-sale-1 .group-button .btn,
+  .banner-sale-2 .group-button .btn,
+  .banner-sale-3 .group-button .btn {
+    display: inline-block;
+  }
+  .banner-sale-1 .group-button .btn:first-child,
+  .banner-sale-2 .group-button .btn:first-child,
+  .banner-sale-3 .group-button .btn:first-child {
+    margin: 0 15px 0 0;
+  }
+  .banner-sale-2 .title-box .title-1 {
+    font-size: 60px;
+  }
+  .new-layout .image-wrapper .description {
+    font-size: 13px;
+    line-height: 18px;
+    left: 15px;
+    right: 15px;
+    padding-left: 0;
+  }
+  .new-layout .image-wrapper .description:before {
+    display: none;
+  }
+  .new-layout .content-wrapper .title {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .videos.layout-2 .title {
+    font-size: 22px;
+  }
+  .videos.layout-2 .video-thumbnail {
+    height: 240px;
+  }
+  .videos.layout-1 .video-thumbnail {
+    height: 240px;
+  }
+  .homepage-02 h1.banner {
+    font-size: 3.14rem;
+    line-height: 3.14rem;
+  }
+  .tab-search-transparent .find-widget {
+    padding: 30px 20px;
+  }
+  .tab-search-condensed .find-widget {
+    padding: 20px;
+  }
+  .social-widget ul {
+    margin-left: 0;
+  }
+  .social-widget ul li {
+    width: calc(100% / 5);
+    width: -webkit-calc(100% / 5);
+    width: -moz-calc(100% / 5);
+  }
+  .title-style-2 {
+    font-size: 18px;
+  }
+  .special-offer-layout:hover {
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+  }
+  .map-block .map-info {
+    padding-top: 16%;
+  }
+  .map-block #googleMap {
+    height: 320px;
+  }
+  /*----- Hotel View -----*/
+  .timeline-book-block .find-widget .input-daterange .text-box-wrapper {
+    width: 100%;
+  }
+  /*----- Tour Result -----*/
+  .find-widget .ffw-radio-selection span.ffw-radio-btn-wrapper {
+    display: block;
+    margin: 6px 0;
+  }
+  .our-wrapper .col-xs-3 {
+    width: 100%;
+  }
+  .our-wrapper .our-content {
+    display: table;
+  }
+  .our-content .our-icon {
+    display: table-cell;
+    padding-right: 15px;
+  }
+  .our-content .main-our {
+    display: table-cell;
+    vertical-align: top;
+  }
+  .our-wrapper .col-xs-3:nth-child(3) {
+    margin-bottom: 40px;
+  }
+  .content-expert .img {
+    width: 100%;
+  }
+  /*----------  404  ----------*/
+  .page-404 .title-1 {
+    font-size: 150px;
+    line-height: 110px;
+    margin-bottom: 20px;
+  }
+  /*---------- car-rent-result  ----------*/
+  .car-rent-layout .image-wrapper {
+    height: 220px;
+  }
+  .page-404 .group-button .btn {
+    margin: 0 auto;
+  }
+  .page-404 .group-button .btn:first-child {
+    margin: 0 auto 20px;
+  }
+  /*----- Blog Detail -----*/
+  .item-blog-detail .blog-text .blog-content .blog-descritption .blockquote {
+    margin: 0 10px 20px 20px;
+    padding-left: 10px;
+  }
+  .item-blog-detail .blog-text .blog-content .date {
+    margin-bottom: 5px;
+  }
+  .blog-wrapper .blog-post .blog-content .date {
+    margin-bottom: 5px;
+  }
+  .blog-wrapper .blog-post .blog-content .meta-info {
+    margin-bottom: 10px;
+  }
+  .homepage-02 h1.banner {
+    font-size: 3.14rem;
+    line-height: 3.14rem;
+  }
+  .tab-search-transparent .find-widget {
+    padding: 30px 20px;
+
+  }
+  .tab-search-condensed .find-widget {
+    padding: 20px;
+  }
+  .social-widget ul {
+    margin-left: 0;
+  }
+  .social-widget ul li {
+    width: calc(100% / 5);
+    width: -webkit-calc(100% / 5);
+    width: -moz-calc(100% / 5);
+  }
+  /*----------  3.2. Flight Results  ----------*/
+  .single-flight-result .flight-result-wrapper {
+    display: block;
+  }
+  .single-flight-result .flight-result-wrapper .info {
+    display: block;
+    width: 100%;
+  }
+  .single-flight-result .flight-result-wrapper .airlines-logo {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+  .single-flight-result form.flight-class .class-selection-wrapper input.radio-btn ~ label.radio-box:before {
+    vertical-align: top;
+    padding-right: 5px;
+  }
+}
+/*----------  1.10. Media screen max width 320px  ----------*/
+@media screen and (max-width: 320px) {
+  .homepage-04 .filter,
+  .homepage-04 video {
+    width: 200% !important;
+    margin-left: -200px !important;
+  }
+  .tours-layout .content-wrapper > .content {
+    padding: 20px;
+  }
+  .hotels-layout .content-wrapper > .content,
+  .timeline-hotel-view .hotels-layout .content-wrapper .content {
+    padding: 20px 70px 20px 20px;
+  }
+  .traveler .wrapper-content {
+    padding: 0 20px 20px 20px;
+  }
+  .new-layout .image-wrapper .description {
+    left: 20px;
+    right: 20px;
+  }
+  .new-layout .content-wrapper {
+    padding: 20px;
+  }
+  .contact-box {
+    padding: 20px;
+  }
+  .a-fact-image-wrapper {
+    min-height: 200px;
+  }
+  .videos.layout-1 .video-thumbnail,
+  .videos.layout-2 .video-thumbnail {
+    height: 200px;
+  }
+  .banner-sale-1 .title-box .title-1 {
+    font-size: 60px;
+  }
+  .banner-sale-1 .title-box .title-2 {
+    font-size: 50px;
+  }
+  .banner-sale-1 .title-box .title-3 {
+    font-size: 36px;
+  }
+  .banner-sale-2 .title-box .title-1 {
+    font-size: 50px;
+  }
+  .car-rent-layout .content-wrapper {
+    padding: 20px;
+  }
+  .cruises-layout .content-wrapper {
+    padding: 20px;
+  }
+  .timeline:before {
+    height: 81%;
+  }
+  .gallery-image .bg {
+    height: 200px;
+  }
+  .about-us-wrapper .contact-list-media {
+    width: 100%;
+  }
+  /*----- Hotel View -----*/
+  .timeline-book-block .find-widget {
+    padding: 20px 10px;
+  }
+  /*----- Tour Result -----*/
+  .find-widget .input-daterange .text-box-wrapper {
+    width: 100%;
+  }
+  .list-continents .list-continent-wrapper {
+    margin: 10px;
+  }
+  .datepicker-dropdown.datepicker-orient-right:before {
+    right: 54px !important;
+  }
+  .datepicker-dropdown.datepicker-orient-right:after {
+    right: 55px !important;
+  }
+  .content-tours {
+    width: 50%;
+  }
+  .content-tours:nth-child(4) {
+    margin-bottom: 30px;
+  }
+  .content-tours:nth-child(5) {
+    width: 100%;
+  }
+  .page-contact-map .map-block .map-info {
+    width: 310px;
+    height: 310px;
+    padding: 50px 0;
+  }
+  /*-----        BLOG         -----*/
+  .stars-rating a.star-1,
+  .stars-rating a.star-2,
+  .stars-rating a.star-3,
+  .stars-rating a.star-4,
+  .stars-rating a.star-5 {
+    margin-right: 0.5em;
+  }
+  p.stars-rating a.star-1 {
+    width: 1.5em;
+  }
+  p.stars-rating a.star-2 {
+    width: 2.5em;
+  }
+  p.stars-rating a.star-3 {
+    width: 3.5em;
+  }
+  p.stars-rating a.star-4 {
+    width: 4.5em;
+  }
+  p.stars-rating a.star-5 {
+    width: 5.5em;
+  }
+}
+/*=====  End of RESPONSIVE SCREEN  ======*/
+
+
+/*----------------custom---------------*/
+
+@media screen and (min-width:300px) and (max-width:480px)
+{
+	.social-footer ul {
+    margin: 5px;
+    width: 100%;
+}
+	.impHighlight {
+    width: 100%;
+}
+	.impHighlight li strong {
+    display: block;
+}
+	.tour-Info small {
+    display: block;
+    float: none;
+}
+	.tourTop .row > .col-md-9
+	{
+		padding: 0 5px;
+	}
+	.pricediv .groupPrice li p {
+    font-size: 14px;
+}
+	.tourTop .tabStyle2.tabheight2.tab-search .tab-btn-wrapper {
+    width: 16.2% !important;
+}
+.textBold {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}	
+.tab-search .dispMob .tab-btn-wrapper .tab-btn span {
+    display: block;
+    font-size: 15px;
+    line-height: normal;
+}
+.rateboxStyle2 .pricediv {
+    width: 100%;
+}
+	.rateboxStyle2 .groupPrice li.title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+	.rateboxStyle2 .groupPrice li.title span {
+    display: inline-block;
+}
+	.rateboxStyle2 .groupPrice li {
+    width: 25%;
+}
+
+	.resTable
+	{
+		overflow-x: scroll;
+	}
+	
+	html .tabStyle2.tab-search  .innerTabs.dispMob  .tab-btn-wrapper .tab-btn i
+	{
+		display: none;
+	}
+	
+	.tourTop .tabStyle2.tabheight2.tab-search .tab3 .tab-btn-wrapper {
+    width: 33% !important;
+}
+	
+		/*-------*/
+.popupStyle em.invalid {
+    top: -10px;
+    position: relative;
+}
+.feature .group-list .col-xs-4 {
+    padding: 30px 0;
+    width: 100%;
+}
+	.group-title .main-title {
+    font-size: 17px;
+}
+.homepage .box-media .media-right {
+    padding-right: 10px;
+}	
+	.call .container {
+    width: 100% !important;
+}
+.call h4 {
+    text-align: center;
+}	
+	.call ul li {
+    width: 100%;
+    padding: 0 9px;
+}
+a.popupClick {
+    display: inline-block;
+}
+	
+	.homepage .group-title {
+    padding: 0;
+}
+.owl-nav {
+    width: 40%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+	ul.hotelinfo li.included {
+    display: none;
+}
+	ul.hotelinfo li.title {
+    width: 65%;
+}
+	ul.hotelinfo li.ratings {
+    width: 32%;
+}
+	.col-md-5.hotel-div {
+    display: inline-block;
+}
+	#inner-box .col-md-6 {
+    width: 50%;
+    float: left;
+}
+	.image-hotel-view-block .slider-for img {
+    width: 127%;
+}
+	/*--end dec 2017-----*/
+	
+.paymentDiv ul li {
+    width: 20% !important;
+    text-align: center;
+    float: none;
+    display: inline-block;
+}
+.paymentDiv ul li img {
+  padding: 4px;
+}
+.paymentDiv ul {
+    padding-left: 0;
+    text-align: center;
+}
+
+  #callBackForm .modal-dialog, #InquireNow .modal-dialog{  width: 320px !important;}
+
+
+.concluded {
+  font-size: 31px;
+  width: 95%;
+  text-align: center;
+  padding: 20% 5% 0 5%;
+  margin-bottom: 10px;
+}
+
+
+.safari .tab-search .tab-btn-wrapper{width: 32% !important;}
+html .safari .list-continents .list-continent-wrapper{width: 32% !important;}
+
+
+    /*-----*/
+    html .navbar-nav > li > .dropdown-menu {
+	margin-top: 0;
+}
+    .popupStyle .modal-dialog, .popupStyle2 .modal-dialog {
+	width: 95%;
+	margin: 0 10px;
+}
+html .modal {
+	z-index: 9999999;
+}
+html .modal-backdrop {
+	z-index: 99999;
+}
+.popupForm .col-md-4 {
+	width: 100%;
+}
+.popupStyle .modal-body, .popupStyle .col-md-6 {
+	padding: 5px;
+}
+/*-----*/
+
+html .container {
+  width: 87% !important;
+}
+.show-desktop {
+    display: none;
+}
+.hide-desktop {
+    display: block;
+}
+.homehotel .tabStyle2.tab-search .tab-btn-wrapper {
+  width: calc(100% / 4);
+}
+html .homehotel .tabStyle2.tab-search .tab-btn-wrapper .tab-btn {
+  min-height: 80px;
+}
+html .header-main .navbar-header {
+  float: left;
+}
+html .header-main .logo {
+  width: 220px;
+  left: 8px ;
+  position: relative;
+}
+.ulStyle2 li {
+  width: 70%;
+}
+html .header-main .logo .header-logo img {
+  max-width: 100%;
+  margin-right: -50px;
+}
+
+html .hamburger-menu {
+  display: inline-block;
+  float: left;
+  left: 13px;
+  margin: 0;
+  position: relative;
+  top: 24px;
+  cursor: pointer;
+}
+.header-logo {
+  display: inline-block;
+  padding: 0 20px;
+}
+.pull-right.stickContainer {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+.navbar-header-right > li:nth-child(2n), .navbar-header-right > li:nth-child(3n)
+{
+  display: none;
+}
+.navbar-header-right > li {
+    float: left;
+    margin-left: 120px;
+    margin-top: -100px;
+    margin-right: 0;
+}
+span.icon-hold {
+    height: 30px;
+    padding: 4px 7px;
+    width: 40px;
+    margin-right: 0;
+}
+span.icon-text {
+    font-size: 12px;
+}
+.icon-text strong {
+    font-size: 14px;
+}
+span.icon-hold::after
+{
+  display: none;
+}
+html .header-02 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+html .innerPage .breadcrumbImg {
+  background-position: 0 0;
+  height: 123px;
+  margin-top: 135px;
+}
+
+html .page-title-wrapper {
+  bottom: 6px;
+  left: 4%;
+}
+html .page-title-wrapper .captions {
+  font-size: 16px;
+  line-height: 19px;
+}
+.pkg_dtl_lft_con {
+  margin: 20px 0;
+  position: relative;
+  top: 0;
+  width: 96%;
+}
+.ui-datepicker.umrahDate {
+  display: block !important;
+  top: 375px !important;
+  width: 100% !important;
+  left: 0 !important;
+}
+.ui-datepicker.umrahDate .ui-datepicker-title {
+  color: #333;
+  left: 0;
+  position: relative;
+  top: -37px;
+}
+.classHolder li {
+  margin-right: 31px;
+}
+.classHolder  ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+}
+.classHolder {
+  margin-top: 25px;
+  position: relative;
+}
+.whiteTitle {
+  font-size: 18px;
+  margin-top: 15px;
+}
+html .tab-search-default .tab-content-bg.sideDesign::after, html .tab-search-default .tab-content-bg.sideDesign::before {
+  opacity: 0.12;
+}
+html .listStyle2 .list-continent-wrapper .continent::after {
+  display: none;
+}
+html .list-continents .list-continent-wrapper {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 32%;
+}
+html .list-continents.listStyle2 .list-continent-wrapper {
+  display: block;
+  float: none;
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  width: 85%;
+}
+.list-continents.listStyle2 {
+  display: inline-block;
+  left: 0;
+  position: relative;
+  width: 100%;
+}
+html .listStyle2 .list-continent-wrapper .continent .text::before {
+  display: none;
+}
+
+html .innerPage .listStyle2 .list-continent-wrapper .circleBottomText {
+left: 120px;
+position: absolute;
+top: 20px;
+width: 180px;
+text-align: left;
+}
+
+.homepage .listStyle2 .list-continent-wrapper .circleBottomText {
+left: 100px;
+position: absolute;
+top: 20px;
+width: 180px;
+text-align: left;
+}
+
+
+.serviceBox li {
+  width: 44%;
+}
+.content-boxes .item-boxed {
+  height: 500px;
+  width: 100%;
+}
+.tableStyle li {
+  width: 90% !important;
+  left: 5% !important;
+  position: relative;
+}
+.addressList .col-md-4 {
+  width: 90% !important;
+  left: 5% !important;
+  margin-bottom: 10px;
+}
+.image-boxed {
+  position: relative;
+  width: 100%;
+  float: none;
+}
+.info-boxed {
+  position: relative;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 300px;
+}
+.travelers .right-sec:before, .travelers .left-sec::after {
+  display: none;
+}
+.travelers .right-sec {
+  display: none;
+}
+.call {
+  width: 100%;
+}
+.news-wrapper .col-md-4 {
+  display: none;
+}
+.footer-main {
+  display: none;
+}
+.subscribe-email-title {
+  font-size: 13px;
+}
+.bg-white .header-topbar {
+  display: block;
+}
+html .innerPage .breadcrumbImg.breadcrumbNosearch.breadcrumbUmrah {
+  height: 108px;
+}
+html .innerPage .breadcrumbImg.breadcrumbUmrah {
+  height: 200px;
+  position: relative;
+  top: -20px;
+}
+.packageSerch {
+  height: 40px;
+  width: 100% !important;
+}
+
+
+.safari .list-continents.listStyle2{margin: 60px 0 40px 0px;}
+
+.soldOut img{left: 9% !important;}
+.safari .leftInput{width: 37% !important;}
+
+.sui_pannel {
+  padding-top: 15px;
+  position: relative !important;
+  top: 0 !important;
+  width: 100%;
+  margin:0;
+}
+.tab-search-default .tab-btn-wrapper {
+  margin-right: 4px;
+  width: 31%;
+}
+.innerPage .list-continents {
+  display: inline-block;
+}
+html .tour-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+html .tab-search-long button[type="submit"] {
+  bottom: auto;
+  margin-top: 0;
+  padding: 0 0 0 25px;
+  position: absolute;
+  right: 0;
+  vertical-align: bottom;
+  width: 70%;
+}
+html .innerPage .tab-search-long button[type="submit"] {
+  margin-bottom: 40px;
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+}
+.groupPrice li h3 {
+  font-size: 12px;
+}
+.groupPrice li p {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+.highlighTitle span {
+  font-size: 12px;
+  position: relative;
+  display: inline-block;
+  line-height: 20px;
+}
+.innerPage .list-continent-wrapper .circleBottomText {
+  font-size: 14px;
+  padding-left: 0;
+  text-align: center;
+}
+.innerPage .list-continent-wrapper span {
+  font-size: 12px;
+}
+.innerPage .list-continent-wrapper span br {
+ display:none;
+}
+html .price-tab {
+  float: left;
+  font-size: 18px;
+  height: 75px;
+  margin-bottom: 32px !important;
+  width: 45%;
+}
+.priceHighlighted .highlighTitle {
+  margin-bottom: 0;
+}
+.hotel-view-main.padding-top {
+  padding: 0;
+}
+.col-md-5.hotel-div {
+  width: 100% !important;
+}
+.hotel-view-main .slick-slide {
+  height: 195px;
+}
+
+.rateboxStyle2 .booking {
+    height: 85px;
+}
+	.rateboxStyle2 .airlinediv::before, .rateboxStyle2 .booking::before {
+    border-width: 42px 0 42px 20px;
+}
+.rateboxStyle2 .airlinediv {
+    min-height: 85px;
+}
+	.booking > a {
+    padding: 25px 0 10px 45% !important;
+}
+
+.rateboxStyle2 .booking > a{
+  padding: 15px 0 10px 55% !important;
+}
+
+	.airlinediv {
+    width: 40%;
+}
+	.hotelSeperator.right-txt .col-md-8, .hotelSeperator:nth-of-type(even) .hotelGallery, .hotelSeperator:nth-of-type(even) .hotelDetail {
+    float: none;
+}
+.right-txt .hotelDetail li {
+    padding-left: 44px;
+    text-align: left;
+}
+
+.right-txt  .MapDirections {
+    position: relative;
+    right: 0;
+}
+.right-txt .hotelDetail li img {
+     left: 0;
+}
+	.hotelSeperator {
+    border-bottom: 1px solid #666;
+    padding-bottom: 20px;
+}
+	
+	.overviewbox2 .textBold {
+    height: auto;
+}
+.overviewbox2 .boxbor {
+    width: 100%;
+	    margin-bottom: 50px;
+	min-height: inherit;
+}
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px)
+{
+	.tourTop .tabStyle2.tabheight2.tab-search .tab-btn-wrapper {
+    width: 16.2% !important;
+}
+.textBold {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}	
+.tab-search .dispMob .tab-btn-wrapper .tab-btn span {
+    display: block;
+    font-size: 15px;
+    line-height: normal;
+}
+.rateboxStyle2 .pricediv {
+    width: 100%;
+}
+	.rateboxStyle2 .groupPrice li.title {
+    height: auto;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+	.rateboxStyle2 .groupPrice li.title span {
+    display: inline-block;
+}
+	.rateboxStyle2 .groupPrice li {
+    width: 25%;
+}
+	
+	.resTable
+	{
+		overflow-x: scroll;
+	}
+	
+	html .tabStyle2.tab-search  .innerTabs.dispMob  .tab-btn-wrapper .tab-btn i
+	{
+		display: none;
+	}
+	
+	.tourTop .tabStyle2.tabheight2.tab-search .tab3 .tab-btn-wrapper {
+    width: 33% !important;
+}
+	
+	.wrapper-mobile-nav
+	{
+		    width: 300px;
+	}
+	.show-nav .wrapper-content {
+    left: 300px;
+	}
+	/*-------*/
+.popupStyle em.invalid {
+    top: -10px;
+    position: relative;
+}
+.feature .group-list .col-xs-4 {
+    padding: 30px 0;
+    width: 100%;
+}
+	.group-title .main-title {
+    font-size: 17px;
+}
+.homepage .box-media .media-right {
+    padding-right: 10px;
+}	
+	.call .container {
+    width: 100% !important;
+}
+.call h4 {
+    text-align: center;
+}	
+	.call ul li {
+    width: 100%;
+    padding: 0 9px;
+}
+a.popupClick {
+    display: inline-block;
+}
+	a.popupClick:hover {
+    color: #ffed00;
+}
+	.homepage .group-title {
+    padding: 0;
+}
+.owl-nav {
+    width: 40%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+	ul.hotelinfo li.included {
+    display: none;
+}
+	ul.hotelinfo li.title {
+    width: 65%;
+}
+	ul.hotelinfo li.ratings {
+    width: 32%;
+}
+	.col-md-5.hotel-div {
+    display: inline-block;
+}
+	#inner-box .col-md-6 {
+    width: 50%;
+    float: left;
+}
+	.image-hotel-view-block .slider-for img {
+    width: 127%;
+}
+	/*--end dec 2017-----*/
+	
+.half-input, .threeInput, .fiveBox {
+  width: 49%;
+}	
+.counting-adlt {
+  width: 30% !important;
+}
+#BackToday .col-sm-1 {
+  display: inline-block;
+  width: 18%;
+}
+.totalAmt .col-sm-8, .totalAmt .col-sm-4 {
+  display: inline-block;
+  width: 49%;
+}
+html .tabStyle2.tab-search .tab-btn-wrapper .tab-btn i {
+  font-size: 20px;
+  line-height: 33px;
+}
+.navbar-header {
+  background-color: #fff;
+}
+.hamburger-menu-wrapper .icons::after, .hamburger-menu-wrapper .icons::before {
+  background-color: #01427a;
+}
+html .innerPage .breadcrumbImg.breadcrumbUmrah {
+  top: 0px !important;
+}
+.airlinediv {
+  width: 23%;
+}
+.formStyle4 .tourInfo.tourInfo2::after {
+  border-width: 50px 235px 0;
+}
+.bg-white .header-main {
+  height: 110px;
+}
+.paymentDiv ul li {
+  width: 20% !important;
+}
+.tourInfo .icon_holder {
+  margin-right: 1%;
+}
+.paymentDiv ul {
+  padding-left: 0;
+}
+.pricediv {
+  /*width: 70%;
+  margin-left: 4%;*/
+}
+.tabStyle2.tab-search .tab-btn-wrapper {
+  width: calc(100% / 5);
+}
+.depGroups .departure-date li{width: 45% !important;}
+.departure-date { padding-left: 8% !important;}
+
+.safari .list-continents.listStyle2{margin: 60px 0 40px 30px !important;}
+.listStyle2 .list-continent-wrapper .circleBottomText{left: -29% !important;}
+.safari .tab-search .tab-btn-wrapper{width: 32% !important;}
+
+
+
+
+.concluded {
+  font-size: 38px;
+  width: 95%;
+  text-align: center;
+  padding: 10% 5% 0 5%;
+  margin-bottom: 10px;
+}
+
+.about-us .wrapper-contact-style .col-md-7 {
+  padding-top: 25px;
+  float: left;
+  width: 70% !important;
+}
+
+.addressList .col-md-4 {
+  width: 48% !important;
+  float: left;
+}
+
+.tableStyle li {
+  width: 48%;
+  margin-left: 1%;
+}
+
+.about-us.layout-3 .wrapper-contact-style .about-us-image {
+  margin-top: 0;
+  bottom: 0;
+  margin-left: 0 !important;
+  left: -70px !important;
+}
+
+
+    /*-----*/
+     html .navbar-nav > li > .dropdown-menu {
+	margin-top: 0;
+}
+    .popupStyle .modal-dialog, .popupStyle2 .modal-dialog {
+	width: 95%;
+	margin: 0 10px;
+}
+html .modal {
+	z-index: 9999999;
+}
+html .modal-backdrop {
+	z-index: 99999;
+}
+.popupForm .col-md-4 {
+	width: 100%;
+}
+.popupStyle .modal-body, .popupStyle .col-md-6 {
+	padding: 5px;
+}
+.popupForm .col-md-4 {
+	width: 33%;
+	/* top: 0; */
+	float: left;
+}
+/*-----*/
+html .container {
+  width: 90% !important;
+}
+html .header-main .navbar-header {
+  float: left;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 100%;
+}
+html .header-main .logo {
+  margin: 0 auto;
+  position: relative;
+  width: 250px;
+  float: left;
+}
+html .header-main .logo .header-logo img {
+  max-width: 100%;
+}
+
+html .hamburger-menu {
+  display: inline-block;
+  float: left;
+  left: 13px;
+  margin: 0;
+  position: relative;
+  top: 24px;
+}
+.header-logo {
+  display: inline-block;
+  padding: 0 20px;
+}
+.header-main-wrapper .pull-right {
+  display: none;
+}
+
+html .header-02 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  height: 122px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+html .innerPage .breadcrumbImg {
+  background-position: 0 0;
+  height: 123px;
+  margin-top: 115px;
+}
+
+html .page-title-wrapper {
+  bottom: 6px;
+  left: 4%;
+}
+html .page-title-wrapper .captions {
+  font-size: 16px;
+  line-height: 19px;
+}
+.pkg_dtl_lft_con {
+  margin: 20px auto;
+  position: relative;
+  top: 0;
+  width: 400px;
+  float: none;
+}
+.ui-datepicker.umrahDate {
+  display: block !important;
+  left: 0 !important;
+  top: 303px !important;
+  width: 100% !important;
+}
+.ui-datepicker.umrahDate .ui-datepicker-title {
+  color: #333;
+  left: 0;
+  position: relative;
+  top: -37px;
+}
+.classHolder li {
+  margin-right: 31px;
+}
+.classHolder  ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+}
+.classHolder {
+  margin-top: 25px;
+  position: relative;
+}
+.whiteTitle {
+  font-size: 18px;
+  margin-top: 15px;
+}
+html .tab-search-default .tab-content-bg.sideDesign::after, html .tab-search-default .tab-content-bg.sideDesign::before {
+  background-position: 0 -34px;
+  background-size: 300px auto;
+  opacity: 0.12;
+}
+html .listStyle2 .list-continent-wrapper .continent::after {
+  display: none;
+}
+html .list-continents .list-continent-wrapper {
+  display: inline-block;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 32%;
+}
+html .list-continents.listStyle2 .list-continent-wrapper {
+  display: inline-block;
+  float: none;
+  margin: 10px;
+  padding: 0;
+  position: relative;
+  width: 25%;
+}
+.list-continents.listStyle2 {
+  display: inline-block;
+  left: 0;
+  position: relative;
+  width: 100%;
+}
+html .listStyle2 .list-continent-wrapper .continent .text::before {
+  display: none;
+}
+.innerPage .listStyle2 .list-continent-wrapper .circleBottomText {
+  left: 0;
+  position: absolute;
+  top: 89px;
+  width: 90%;
+}
+
+.serviceBox li {
+  width: 100%;
+}
+.content-boxes .item-boxed {
+  width: 100%;
+  height: 175px;
+}
+.info-boxed {
+  padding: 10px;
+}
+.info-boxed h3 {
+  font-size: 14px;
+}
+hr.separator {
+  margin: 9px !important;
+}
+.info-boxed  p {
+  line-height: 15px !important;
+}
+.travelers .right-sec:before, .travelers .left-sec::after {
+  display: none;
+}
+.travelers .right-sec {
+  display: none;
+}
+.call {
+  width: 100%;
+}
+.news-wrapper .col-md-4 {
+  display: none;
+}
+.footer-main {
+  display: none;
+}
+.subscribe-email-title {
+  font-size: 13px;
+}
+ 
+html .innerPage .breadcrumbImg.breadcrumbNosearch.breadcrumbUmrah {
+  height: 108px;
+}
+
+html .innerPage .breadcrumbImg.breadcrumbUmrah {
+  height: 200px;
+  position: relative;
+  top: -20px;
+}
+.packageSerch {
+  height: 40px;
+  width: 100%;
+}
+.sui_pannel {
+  padding-top: 15px;
+  position: relative !important;
+  top: 0 !important;
+  width: 100%;
+  margin:0;
+}
+.tab-search-default .tab-btn-wrapper {
+  margin-right: 4px;
+  width: 31%;
+}
+.innerPage .list-continents {
+  display: inline-block;
+}
+html .tour-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+html .tab-search-long button[type="submit"] {
+  bottom: auto;
+  margin-top: 0;
+  padding: 0 0 0 25px;
+  position: absolute;
+  right: 0;
+  vertical-align: bottom;
+  width: 70%;
+}
+html .innerPage .tab-search-long button[type="submit"] {
+  margin-bottom: 40px;
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+}
+.groupPrice li h3 {
+  font-size: 12px;
+}
+.groupPrice li p {
+  font-size: 14px;
+  margin-bottom: 0 !important;
+}
+.highlighTitle span {
+  font-size: 12px;
+  position: relative;
+  display: inline-block;
+  line-height: 20px;
+}
+.innerPage .list-continent-wrapper .circleBottomText {
+  font-size: 14px;
+  padding-left: 0;
+  text-align: center;
+}
+.innerPage .list-continent-wrapper span {
+  font-size: 12px;
+}
+.innerPage .list-continent-wrapper span br {
+ display:none;
+}
+html .price-tab {
+  float: left;
+  font-size: 18px;
+  height: 75px;
+  margin-bottom: 32px !important;
+  width: 45%;
+}
+.priceHighlighted .highlighTitle {
+  margin-bottom: 0;
+}
+.hotel-view-main.padding-top {
+  padding: 0;
+}
+.col-md-5.hotel-div {
+  width: 100% !important;
+}
+.hotel-view-main .slick-slide {
+  height: 240px;
+}
+
+.policySection .col-md-5 {
+  float: left;
+  width: 25%;
+}
+
+.policySection .col-md-7 {
+  float: left;
+  width: 75%;
+}
+.hotelTab .col-md-8 {
+  float: left;
+  width: 60%;
+}
+.hotelTab .col-md-4 {
+  float: left;
+  width: 40%;
+}
+
+.tabStyle2 .tab-content {
+ /* min-height: 900px;*/
+  position: relative;
+}
+.homehotel .tabStyle2.tab-search .tab-btn-wrapper {
+  width: calc(100% / 4);
+}
+/*.fullwidthbanner-container {
+  margin-top: 145px;
+}*/
+.rateBox .childPrices {
+  width: 100%; display: none;
+}
+
+	.rateboxStyle2 .booking {
+    height: 85px;
+}
+	.rateboxStyle2 .airlinediv::before, .rateboxStyle2 .booking::before {
+    border-width: 42px 0 42px 20px;
+}
+.rateboxStyle2 .airlinediv {
+    min-height: 85px;
+}
+	.booking > a {
+    padding: 25px 0 10px 45% !important;
+}
+	.airlinediv {
+    width: 40%;
+}
+	.hotelSeperator.right-txt .col-md-8, .hotelSeperator:nth-of-type(even) .hotelGallery, .hotelSeperator:nth-of-type(even) .hotelDetail {
+    float: none;
+}
+.right-txt .hotelDetail li {
+    padding-left: 44px;
+    text-align: left;
+}
+
+.right-txt  .MapDirections {
+    position: relative;
+    right: 0;
+}
+.right-txt .hotelDetail li img {
+     left: 0;
+}
+	.hotelSeperator {
+    border-bottom: 1px solid #666;
+    padding-bottom: 20px;
+}
+.overviewbox2 .textBold {
+    height: auto;
+}
+.overviewbox2 .boxbor {
+    width: 100%;
+	    margin-bottom: 50px;
+	min-height: inherit;
+}	
+}
+
+@media screen and (min-width:601px) and (max-width:768px)
+{
+	.feature .group-list .col-xs-4 {
+    width: 50%;
+}
+	.col-md-5.hotel-div {
+    width: 50% !important;
+		float: left;
+}
+	.hotel-view-main .col-md-3 {
+    float: right;
+    width: 50% !important;
+}
+	
+	.hotel-view-main #inner-box .slick-slide {
+    line-height: 20px;
+}
+	
+	.hotel-view-main .slick-slide {
+    height: 130px;
+}
+	.image-hotel-view-block .slider-nav .slick-slide {
+    height: 25px;
+}
+	
+.hotelSeperator .hotelDetail, .hotelSeperator .hotelGallery  {
+    width: 50%;
+	float: left !important;
+}
+	.hotelSeperator:nth-of-type(even) .hotelDetail {
+    float: right !important;
+}
+	.overviewbox2 .textBold {
+    height: auto;
+}
+.overviewbox2 .boxbor {
+    width: 49%;
+	    margin-bottom: 0;
+	min-height: inherit;
+}
+
+}
+@media screen and (min-width:769px) and (max-width:991px)
+{
+	.overviewbox2 .textBold {
+    height: auto;
+}
+
+
+	.hotelSeperator .hotelDetail, .hotelSeperator .hotelGallery  {
+    width: 50% !important;
+	float: left !important;
+}
+	.hotelSeperator:nth-of-type(even) .hotelDetail {
+    float: right !important;
+}
+	
+	
+	.textBold {
+    height: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.tab-search .dispMob .tab-btn-wrapper .tab-btn span {
+    display: block;
+    font-size: 15px;
+    line-height: normal;
+}
+
+html .tabStyle2.tab-search  .innerTabs.dispMob  .tab-btn-wrapper .tab-btn i
+	{
+		display: none;
+	}
+	
+	.wrapper-mobile-nav .header-main .login-widget .item {
+    width: 100%;
+}
+	.bottomButton a.button {
+    margin: 0 2px;
+}
+	/*-------*/
+#inner-box .col-md-6 {
+    width: 50%;
+    float: left;
+}
+	ul.hotelinfo li.title {
+    width: 65%;
+}
+	ul.hotelinfo li.ratings {
+    width: 32%;
+}
+	ul.hotelinfo li.included {
+    display: none;
+}
+	/*--end dec 2017-----*/
+	
+.popupStyle.style_2 .modal-dialog {
+  width: 97%;
+}
+.calendarDiv {
+  left: 5%;
+  width: 90%;
+}
+.rateBox .childPrices {
+  width: 33% !important;
+}	
+.rateBox .childPrices {
+  width: 100%;
+}
+	.header-main .navbar-header {
+    width: 25%;
+}
+.tabStyle2 .tab-content {
+ /* min-height: 1180px;*/
+  position: relative;
+}
+div.container {
+  width: 750px !important;
+}
+
+    
+.wrapper-contact-style .col-md-7 {
+  width: 50%;
+  float: left;
+  padding-left: 6%;
+}
+.about-us.layout-2 .about-us-image {
+  right: 60px !important;
+}
+
+.slick-slider .link .content-wrapper .btn.btn-default{top: -31px !important; width: 120% !important; left: -10% !important;}
+.icon1 { width: 56px !important; }
+
+.searchResults li{width: 48% !important; margin-right: 2% !important;}
+
+
+ /*-----*/
+/*  html .navbar-nav > li > .dropdown-menu {
+	margin-top: 0;
+}*/
+    .popupStyle .modal-dialog, .popupStyle2 .modal-dialog {
+	width: 95%;
+	margin: 0 10px;
+}
+html .modal {
+	z-index: 9999999;
+}
+html .modal-backdrop {
+	z-index: 99999;
+}
+.popupForm .col-md-4 {
+	width: 100%;
+}
+.popupStyle .modal-body, .popupStyle .col-md-6 {
+	padding: 5px;
+}
+.popupForm .col-md-4 {
+	width: 33%;
+	/* top: 0; */
+	float: left;
+}
+/*-----*/
+.container {
+  width: 100% !important;
+}
+.book-btn {
+  display: none;
+  margin-right: 0;
+}
+.text.main-txt {
+  padding: 19px 5px;
+}
+.navigation .nav-links .main-menu {
+  margin: 9px 12px;
+}
+	.navigation.stick {
+    width: 75% !important;
+}
+	.footerbox li {
+    padding: 0 9px;
+}
+	.paymentDiv ul {
+    padding-left: 0;
+}
+	
+.navigation {
+  width: 100% !important;
+}
+.navigation .nav-links .main-menu .fa-home {
+  font-size: 20px;
+    top: 0px;
+}
+.tourTop .col-md-8 {
+  width: 72%;
+}
+.pkg_lft_main .col-md-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+html .price-tab {
+  float: left;
+  font-size: 18px;
+  height: 75px;
+  margin-bottom: 32px !important;
+  width: 200px;
+}
+html .innerPage .tab-search-long button[type="submit"] {
+  margin-bottom: 40px;
+  margin-top: 0;
+  position: relative;
+  width: 150px;
+}
+.hotelTab .col-md-8 {
+  float: left;
+  width: 60%;
+}
+.hotelTab .col-md-4 {
+  float: left;
+  width: 40%;
+}
+.serviceBox li {
+ width: -webkit-calc(100% / 6 - 15px);
+ width: -moz-calc(100% / 6 - 15px);
+ width: -ms-calc(100% / 6 - 15px);
+  width: -o-calc(100% / 6 - 15px);
+  width: calc(100% / 6 - 15px);
+}
+.col-md-5.hotel-div {
+  width: 30.4% !important;
+  float: left;
+}
+.hotel-view-main .col-md-3 {
+  float: left;
+  width: 39%;
+}
+html #white-box.shadow {
+  padding: 3px 5px;
+  width: 100%;
+}
+.group-title .main-title {
+  font-size: 17px;
+}
+.hotel-view-main .col-md-3 p {
+  font-size: 12px;
+}
+
+.hotel-view-main .slick-slide {
+  height: 108px;
+}
+.video-thumbnail {
+  height: auto;
+}
+.travelers .col-md-6 {
+  width: 47%;
+}
+.book .col-md-1 {
+  float: left;
+}
+.book .col-md-10 {
+  float: left;
+  width: 81%;
+}
+#main-info {
+  margin-bottom: 13px;
+}
+.travelers .col-md-5 {
+  width: 44%;
+}
+.news-wrapper .col-md-4 {
+  float: left;
+  width: 33%;
+}
+.news-wrapper .col-md-8 {
+  float: left;
+  width: 63%;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1024px)
+{
+.header-main .navbar-header {
+    width: 200px;
+}
+	div.container {
+    width: 970px !important;
+}
+	
+.searchResults li{width: 48%; margin-right: 2%;}
+
+  
+    .navigation .nav-links .main-menu {
+  margin: 15px 11px;
+}
+.group-title .main-title {
+  font-size: 17px;
+}
+.hotel-view-main .col-md-3 p {
+  font-size: 12px;
+}
+
+.hotel-view-main .slick-slide {
+  height: 108px;
+}
+.video-thumbnail {
+  height: auto;
+}
+html #white-box.shadow {
+  border: 1px dashed #01427a;
+  float: left;
+  padding: 5px 11px;
+  width: 100%;
+}
+.hotel-view-main .slick-slide {
+  height: 187px;
+}
+}
+@media screen and (min-width:1025px) and (max-width:1199px)
+{
+
+	div.container {
+    width: 970px !important;
+}
+}
+@media screen and (max-width: 768px) {
+.pricediv {
+    width: 74%;
+ }
+}
+@media screen and (max-width: 767px) {
+.pricediv {
+    width: 100% !important;
+ }
+}
+/*----------------end custom---------------*/

@@ -1,0 +1,33 @@
+.image{
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px gray;
+    width: auto;
+    padding: 9px;
+    font-weight: 400;
+    padding-bottom: 0px;
+    height: 40px;
+    user-select: none;
+    text-decoration:line-through;
+    font-style: italic;
+    font-size: x-large;
+    border: red 2px solid;
+    margin-left: 67px;
+  x
+     
+}
+.user-input{
+    box-shadow: 5px 5px 5px 5px gray;
+    width:auto;
+       margin-right: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
+    height: 50px;
+       border: red 0px solid;
+       margin-left: 18px;
+}
+input{
+    border:1px black solid;
+}
+.inline{
+    display:inline-block;
+}

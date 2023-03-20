@@ -1,0 +1,74 @@
+.TAMcarousel img{
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+
+.TAMcarousel{
+position: relative;
+width: 100%;
+overflow: hidden;
+margin: auto;
+background-color: grey;
+}
+
+.TAMcarousel img{
+max-width: 100%;
+margin: auto;
+display: block;
+}
+
+.TAMcarousel .slide{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: -100%;
+}
+
+.TAMcarousel #slide1{
+left: -100%;
+}
+
+.TAMcarousel #slide2{
+left: 0;
+}
+
+.TAMcarousel #slide3{
+left: 100%;
+}
+
+.TAMcarousel #slide4{
+left: 100%;
+}
+
+.TAMcarousel .left-container, .TAMcarousel .right-container{
+position: absolute;
+top: 0;
+z-index: 2;
+width: 10%;
+height: 100%;
+}
+
+.TAMcarousel .left-container{
+	left: 0;
+}
+
+.TAMcarousel .right-container{
+	right: 0;
+}
+
+.TAMcarousel .left-btn, .TAMcarousel .right-btn{
+width: 100%;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+cursor: pointer;
+}

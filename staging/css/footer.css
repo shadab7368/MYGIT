@@ -1,0 +1,14 @@
+.moreText {
+    display: none;
+}
+.read-more-btn {
+    color: rgb(53, 49, 49);
+    font-size: 20px;
+    cursor: pointer;
+}
+.text.show-more .moreText {
+    display: inline;
+}
+.text.show-more .dots {
+    display: none;
+}

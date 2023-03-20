@@ -1,0 +1,688 @@
+.tour-Info > h3 {
+    font-size: 20px;
+}
+
+.airlinediv {
+   display: inline-flex;
+   align-items: center;
+}
+ 
+.package-breadcrumb{
+    letter-spacing: 0.06em;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.main-title{
+    color: #01427a;
+}
+
+.package-starts-from{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.price-starts-from{
+    font-size: 11px;
+}
+
+.price-starts-from-price{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.price-starts-from-price:before{
+    content: "₹";
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+.enquire-now-box{
+    border-radius: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 15px;
+    text-align: center
+}
+
+.enquire-now-box .enquire-now-box-title{
+    background: #01427a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.enquire-now-box .enquire-now-box-body{
+    text-align: left;
+}
+
+.enquire-now-box .enquire-now-box-body label{
+    
+}
+
+.enquire-now-box .enquire-now-box-body input,select{
+    background: #eee
+}
+
+.enquire-now-box .enquire-now-box-body select{
+    background: #eee
+}
+
+.grab-prices{
+    color: #01427a;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+}
+
+.package-picture{
+    
+}
+
+.package-picture img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid #eee;
+}
+
+.common-info-tabs{
+}
+
+.common-info-tabs div{
+    display: inline-block;
+    font-size: 17px;
+    padding-right: 30px;
+    letter-spacing: 0.04em;
+    color: black;
+    padding-left: 0px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.common-info-tabs div span:hover{
+    color: #01427a;
+}
+
+.common-info-tabs div.active span:after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #01427a;
+    position: relative;
+    bottom: -2px;
+    display: block;
+}
+
+.common-info-tabs div.active{
+    color: #01427a;
+}
+
+.umrah-packages{
+    
+}
+
+.umrah-packages .package-item{
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.umrah-packages .package-item > .package-heading{
+    text-align: center;
+    display: block;
+}
+
+.umrah-packages .package-item > .package-heading > span.package-name{
+    width: 140px;
+    display: inline-block;
+    border-radius: 50px;
+    padding: 15px;
+    border: 1px solid #01427a;
+    font-size: 20px;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    position: relative;
+    top: -30px;
+    background: #01427a;
+    color: white;
+}
+
+.umrah-packages .package-item:hover{
+    cursor: pointer;
+    background: #eee;
+}
+
+.umrah-packages .col-lg-4{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+    
+}
+
+.umrah-packages .package-item > .package-subtitle{
+    text-align: center;
+    font-size: 12px;
+    margin-top: -27px;
+    letter-spacing: 0.06em;;
+}
+
+.umrah-packages .package-item > .package-price{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.06em;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.umrah-packages .package-item > .package-price > span:before{
+    content: "₹";
+}
+
+.umrah-packages .package-item > .package-price-onwards{
+    text-align: center;
+    font-size: 11px;
+    margin-top: -5px;
+    letter-spacing: 0.06em;
+}
+
+.umrah-packages .package-item > .package-departure{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 0.06em;
+}
+
+.umrah-packages .umrah-packages-buttons{
+    
+    text-align: center;
+    
+}
+
+.umrah-packages .umrah-packages-buttons a{
+    display: block !important;
+    margin: 0px !important;
+    padding: 10px 0px 10px 0px !important;
+}
+
+.package-information-block{
+    
+}
+
+.package-information-block h2{
+    color: #01427a;
+}
+
+.package-information-block .package-information-tabs{
+    margin-bottom: 10px;
+}
+
+.package-information-block .package-information-tabs .hotels-accomodation{
+}
+
+.package-information-block .package-information-tabs .package-info-tab-item{
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 25px;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.package-information-block .package-information-tabs .package-info-tab-item:hover{
+    color: #01427a;
+}
+
+.package-information-block .package-information-tabs .package-info-tab-item.active{
+    color: black;
+    font-weight: bold;
+    color: #01427a;
+}
+
+.package-information-block .package-information-tabs .package-info-tab-item.active:after{
+    
+}
+
+.package-information-block .package-information-tabs .package-info-tab-item.active span:after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #01427a;
+    position: relative;
+    bottom: -1px;
+    display: block;
+}
+
+.package-information-block{
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.package-information-block .package-info-tab-description{
+    display: block;
+}
+
+.package-information-block .package-info-tab-description.hotels-accomodation{
+    display: block;
+    
+}
+
+.package-information-block .package-info-tab-description.hotels-accomodation .table-package-hotels{
+    width: 100%;
+}
+.package-information-block .package-info-tab-description.hotels-accomodation .table-package-hotels tbody tr th img{
+    display: inline-block;
+    height: 35px;
+}
+.package-information-block .package-info-tab-description.hotels-accomodation .table-package-hotels tbody tr th p{
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    margin-top: 10px !important;
+}
+.package-information-block .package-info-tab-description.hotels-accomodation .table-package-hotels tbody tr td,th{
+    text-align: center;
+    border: 1px solid #eee;
+    background: transparent;
+    font-size: 14px !important;
+    color: black;
+}
+
+.package-information-block .package-info-tab-description.inclusions{
+    display: block;
+    padding-left: 25px;
+    margin-top: -15px !important;
+}
+
+.package-information-block .package-info-tab-description.inclusions p{
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 20px !important;
+    color: #212221;
+    font-weight: 400;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.package-information-block .package-info-tab-description.inclusions p:before{
+    position: relative;
+    left: -25px;
+    height: 17px;
+    width: 17px;
+    display: block;
+    content: ' ';
+    background-image: url('../img/icons/green-tick.svg');
+    background-size: 17px 17px;
+    top: 17px;
+}
+
+.package-information-block .package-info-tab-description.exclusions{
+    display: block;
+    padding-left: 25px;
+    margin-top: -15px !important;
+}
+
+.package-information-block .package-info-tab-description.exclusions p{
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    line-height: 0.05em !important;
+    margin-top: 13px !important;
+    color: #212221;
+    font-weight: 400;
+}
+
+.package-information-block .package-info-tab-description.exclusions p:before{
+    position: relative;
+    left: -25px;
+    height: 17px;
+    width: 17px;
+    display: block;
+    content: ' ';
+    background-image: url('../img/icons/red-cross.png');
+    background-size: 17px 17px;
+    top: 10px;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices{
+    border-collapse: collapse;
+    width: 100%
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td{
+    text-align: center;
+    border: 1px solid #eee;
+    padding: 10px !important;
+    font-size: 15px !important;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td.package-mode{
+    width: 70px;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td.package-pricing{
+    width: 200px;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td div.heading{
+    font-size: 15px !important;
+    letter-spacing: 0.05em !important;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #01427a;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td img{
+    height: 50px;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td.package-pricing-description{
+    width: 200px;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td .pricing{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    color: #01427a;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td .pricing:before{
+    content: "₹";    
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td .pricing-child{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    color: #01427a;
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr td .pricing-child:before{
+    content: "₹";    
+}
+
+.package-information-block .package-info-tab-description .table-package-hotel-sharing-prices tbody tr th{
+    
+}
+
+.exclusive-package-highlights{
+    margin-top: 40px;
+}
+
+.information{
+    margin-top: 20px;
+}
+.information h2{
+    margin-bottom: 10px !important;
+}
+
+.information .descriptive-text{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.information.notes ul li{
+    font-size: 17px !important;
+    letter-spacing: 0.03em;
+    text-align: justify;
+    margin-top: 5px;
+    line-height: 25px;
+}
+
+.hotel-information{
+   
+}
+
+.hotel-information .accomodations{
+    margin-top: 20px;
+}
+
+.hotel-information .table-hotel-details{
+    border-collapse: collapse;
+}
+
+.hotel-information .table-hotel-details tbody tr td{
+    height: 50px !important;
+    padding-bottom: 10px !important;
+}
+
+.hotel-information .table-hotel-details tbody tr td img{
+    height: 37px !important;
+}
+
+.hotel-information .table-hotel-details tbody tr td span{
+    font-size: 13px;
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-name{
+    color: #01427a;
+    font-size: 19px;
+    margin-top: -8px !important;
+    font-weight: bold;
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-name:beforea{
+    content: " ";
+    background: url('../assets/frontend_end/images/icons/hotel.png');
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    background-size: 40px 40px;
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-location{
+    color: blue;
+    font-size: 13px;
+    margin-top: -8px !important;
+    
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-location:beforea{
+    content: "";
+    background: url('../assets/frontend_end/images/icons/location.png');
+    background-size: auto;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 97px;
+    left: -1px;
+    background-size: 40px 40px;
+    display: inline-block;
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-description{
+    margin-top: -8px !important;
+    font-size: 15px;
+    
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-description:beforea{
+    content: "";
+    background: url('../img/icons/makkah-icon.png');
+    background-size: auto;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 46px;
+    left: -1px;
+    background-size: 40px 40px;
+    display: inline-block;
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-ratings{
+    margin-top: -8px !important;
+    
+    font-size: 17px;
+}
+
+.hotel-information .table-hotel-details tbody tr td p.hotel-ratings:beforea{
+    content: "";
+    background: url('../assets/frontend_end/images/icons/ratings.png');
+    background-size: auto;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 154px;
+    left: -1px;
+    background-size: 40px 40px;
+    display: inline-block;
+}
+
+.hotel-information .hotel-slideshow-theatre{}
+.hotel-information .hotel-slideshow-theatre div{
+    height: 267px;
+}
+
+.hotel-information .hotel-slideshow-theatre div img{
+    height: 267px;
+}
+
+.hotel-information .hotel-slideshow-nav{
+    width: 534px;
+}
+
+.hotel-information .hotel-slideshow-nav img{
+    height: 75px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.airlines img{
+    width: 100%;
+    padding: 50px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.table-itenirary tbody tr th{
+    width: 100px !important;
+    padding-left: 10px;
+}
+
+.table-itenirary tbody tr th p{
+    margin: 0px !important;
+    padding: 0px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.table-itenirary tbody tr td{
+    padding-left: 20px !important;
+    border: 1px solid #eee;
+    width: 400px;
+}
+
+.slick-prev::before, .slick-next::before {
+  color: #040404 !important;
+}
+
+button{
+    /*color: transparent !important;*/
+}
+
+button.slick-arrow{
+    color: transparent !important;
+}
+
+.exclusive-hightlight-div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.exclusive-hightlight-div img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+
+.exclusive-hightlight-div p{
+    font-size: 14px;
+    color: black;
+    letter-spacing: 0.03em;
+    font-weight: 100;
+    margin-top: 9px !important;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+ .airlinediv {
+   min-height: 65px;
+ }
+ .airlinediv::before {
+   border-width: 32px 0 32px 20px;
+ }
+ .booking {
+   height: 65px;
+ }
+ .booking > a {
+   padding: 10px 0 10px 45% !important;
+ }
+
+ .tabs.inner-tab{
+   display: flex;
+   overflow: scroll;
+ }
+
+ .inner-tab li {
+   display: inline-flex;
+ }
+ .inner-tab li a {
+   margin: 3px;
+   padding: 7px 10px;
+   min-width: 175px;
+ }
+}
+
+@media screen and (max-width:  601px) {
+  .hotelDetailLeft, .hotelDetailRight {
+    float: none !important;
+  }
+}
+
+@media screen and (max-width:  480px){
+ .navbar-header-right li{
+   position: absolute;
+   margin: 0;
+ }
+
+ .navbar-header-right li:first-child{
+   right: 4rem;
+   bottom: 5.7rem;
+ }
+
+ .navbar-header-right > li:nth-child(2n){
+   display: block;
+   top: -4.5rem;
+   right: 4.2rem;
+ }
+
+ .navbar-header-right > li:nth-child(3n) {
+   display: block;
+   bottom: -6px;
+   right: 3rem;
+ }
+
+ .navbar-header-right > li:nth-child(2n) .icon-left, .navbar-header-right > li:nth-child(3n) .icon-left{
+   display: none;
+
+ }
+ 
+
+ 
+}

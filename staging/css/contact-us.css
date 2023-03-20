@@ -1,0 +1,38 @@
+@font-face {
+    font-family: poppins_regular;
+    src: url(font/Poppins-Regular.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: poppins_regular !important;
+}
+
+p,span,h1,h2,h3,h4,h5,h6,a,button,div,table,td,th{
+    font-family: poppins_regular !important;
+}
+
+.package-breadcrumb{
+    letter-spacing: 0.06em;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.map-block .map-info .btn-open-map {
+  width: 120px;
+}
+
+.formStyle2 .about-us-image::before {
+  background-color: #e7e7e7;
+  border-color: transparent transparent #ccc;
+  border-style: solid;
+  content: "";
+  display: block;
+  height: 675px;
+  left: -144px;
+  position: absolute;
+  top: -85px;
+  width: 675px;
+  z-index: -1;
+  border-radius: 100%;
+}
